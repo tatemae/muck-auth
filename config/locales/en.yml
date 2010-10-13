@@ -1,7 +1,7 @@
 --- 
 en: 
   muck: 
-    oauth: 
+    auth: 
       back: Back
       do_you_have_an_application_to_register: Do you have an application you would like to register for use with us using the %{link} standard?
       support_url_label: Support URL
@@ -27,8 +27,6 @@ en:
       request_token_url: Request Token URL
       application: Application
       you_can_connect_to_the_following_services: "You can connect to the following services:"
-      consume_key: "Consumer Key:"
-      oauth_client_applications: OAuth Client Applications
       back_label: Back
       callback_label: Callback URL*
       authorize_access_label: authorize access

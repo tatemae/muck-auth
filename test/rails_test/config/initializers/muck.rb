@@ -53,16 +53,8 @@ MuckUsers.configure do |config|
                                                   # users delete their own accounts since the delete can cascade through the system with unknown results.
 end
 
-MuckComments.configure do |config|
-  config.send_email_for_new_comments = true # If true this will send out an email to each user that has participated in a comment thread.  The default email is basic and only includes the body
-                                            # of the comment.  Add new email views to provide a better email for you users.  They can be found in app/views/comment_mailer/new_comment.html.erb
-                                            # and app/views/comment_mailer/new_comment.text.erb
-  config.sanitize_content = true            # Turns sanitize off/on for comments. We highly recommend leaving this on.
-end
-
-
 MuckAuth.configure do |config|
-  config.credentials = Secrets.auth_credentials
+  config.oauth_credentials = Secrets.oauth_credentials
 end
 
 if defined?(ActiveRecord)

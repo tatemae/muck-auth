@@ -7,12 +7,12 @@ task :default => :spec
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "muck-oauth"
+    gem.name = "muck-auth"
     gem.summary = %Q{OAuth for muck}
-    gem.description = %Q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
+    gem.description = %Q{A simple wrapper for the omniauth gem so that it is faster to include oauth in muck based applications.}
     gem.email = "justin@tatemae.com"
-    gem.homepage = "http://github.com/tatemae/muck-oauth"
-    gem.rubyforge_project = "muck-oauth"
+    gem.homepage = "http://github.com/tatemae/muck-auth"
+    gem.rubyforge_project = "muck-auth"
     gem.authors = ["Justin Ball"]
     gem.add_dependency "omniauth"
     gem.add_dependency "overlord"
@@ -43,7 +43,7 @@ rescue LoadError
 end
 
 require 'rake/rdoctask'
-desc 'Generate documentation for the muck-oauth gem.'
+desc 'Generate documentation for the muck-auth gem.'
 Rake::RDocTask.new do |rdoc|
   if File.exist?('VERSION.yml')
     config = YAML.load(File.read('VERSION.yml'))
@@ -53,7 +53,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "muck_oauth #{version}"
+  rdoc.title = "muck_auth #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

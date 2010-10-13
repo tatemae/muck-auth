@@ -1,4 +1,4 @@
-require 'muck_oauth'
+require 'muck-auth'
 require 'rails'
 
 module MuckProfiles
