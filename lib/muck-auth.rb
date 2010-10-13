@@ -1,8 +1,8 @@
-require 'muck_oauth/config'
-require 'muck_oauth/models/oauth_user'
-require 'muck_oauth/services/friendfeed_token'
-require 'muck_oauth/services/google_token'
-require 'muck_oauth/services/linkedin_token'
-require 'muck_oauth/services/yahoo_token'
-require 'muck_oauth/exceptions'
-require 'muck_oauth/engine'
+require 'oa-oauth'
+
+require 'muck-auth/config'
+require 'muck-auth/engine'
+
+MuckAuth.configuration.credentials.each_key do |key|
+  use "OmniAuth::Strategies::#{key.camelize}".constantize, MuckAuth.configuration.credentials[key][:key], MuckAuth.configuration.credentials[key][:secret]
+end

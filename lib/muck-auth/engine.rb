@@ -5,16 +5,16 @@ module MuckProfiles
   class Engine < ::Rails::Engine
     
     def muck_name
-      'muck-oauth'
+      'muck-auth'
     end
     
-    initializer 'muck_oauth.helpers' do |app|
+    initializer 'muck_auth.helpers' do |app|
       ActiveSupport.on_load(:action_view) do
-        include MuckOauthHelper
+        include MuckAuthHelper
       end
     end
     
-    initializer 'muck_oauth.i18n' do |app|
+    initializer 'muck_auth.i18n' do |app|
       ActiveSupport.on_load(:i18n) do
         I18n.load_path += Dir[ File.join(File.dirname(__FILE__), '..', '..', 'config', 'locales', '*.{rb,yml}') ]
       end

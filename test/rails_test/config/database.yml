@@ -1,13 +1,13 @@
 development:
   adapter: mysql
-  database: muck_oauth_development
+  database: muck_auth_development
   username: root
   password:
   host: localhost
   encoding: utf8
 test:
   adapter: mysql
-  database: muck_oauth_test
+  database: muck_auth_test
   username: root
   password:
   host: localhost

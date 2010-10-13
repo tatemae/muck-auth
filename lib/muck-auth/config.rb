@@ -1,4 +1,4 @@
-module MuckOauth
+module MuckAuth
   
   def self.configuration
     # In case the user doesn't setup a configure block we can always return default settings:
@@ -12,10 +12,10 @@ module MuckOauth
 
   class Configuration
     
-    attr_accessor :enable_solr
+    attr_accessor :credentials
     
     def initialize
-      self.enable_solr = true
+      self.credentials = {}
     end
     
   end

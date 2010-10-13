@@ -60,6 +60,11 @@ MuckComments.configure do |config|
   config.sanitize_content = true            # Turns sanitize off/on for comments. We highly recommend leaving this on.
 end
 
+
+MuckAuth.configure do |config|
+  config.credentials = Secrets.auth_credentials
+end
+
 if defined?(ActiveRecord)
   # Don't Include Active Record class name as root for JSON serialized output.
   ActiveRecord::Base.include_root_in_json = false
