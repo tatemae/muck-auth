@@ -1,0 +1,5 @@
+= muck-auth
+This gem wraps the omniauth gem to make it simple to authenticate with multiple services.
+
+
+Copyright (c) 2009-2010 Tatemae.com. See LICENSE for details.
