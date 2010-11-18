@@ -1,3 +1,6 @@
+require 'openid/store/filesystem'
 require 'muck-auth/exceptions'
 require 'muck-auth/config'
+require 'muck-auth/models/user'
+require 'muck-auth/models/authentication'
 require 'muck-auth/engine'

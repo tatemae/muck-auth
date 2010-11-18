@@ -1,0 +1,12 @@
+<div id="auth_available_services" class="auth-services">
+  <% unless authentications.empty? %>
+    <h3><%=translate('muck.auth.you_can_connect_to_the_following_services') %></h3>
+    <ul <%='class="icon-list"' if include_icons%>>
+      <% authentications.each do |authentication| -%>
+        <li class="<%=authentication.to_s.parameterize%> auth_service service-link" <%= service_icon_background(authentication) if include_icons%> title="<%=translate('muck.auth.connect_to_account_title', :service => authentication.to_s.humanize) %>">
+          <%= link_to auth_service_name(authentication), "/auth/#{authentication}" %>
+        </li>
+      <% end -%>
+    </ul>
+  <% end %>
+</div>

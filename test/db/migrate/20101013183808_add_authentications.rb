@@ -4,6 +4,7 @@ class AddAuthentications < ActiveRecord::Migration
       t.integer :user_id
       t.string :provider
       t.string :uid
+      t.text :raw_auth
       t.timestamps
     end
   end

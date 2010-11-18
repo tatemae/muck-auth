@@ -6,6 +6,16 @@ module MuckAuth
     
       included do
         has_many :authentications
+        accepts_nested_attributes_for :authentications, :allow_destroy => true
+      end
+      
+      def apply_omniauth(omniauth)
+        self.email = omniauth['user_info']['email'] if email.blank?
+        authentications.build(:provider => omniauth['provider'], :uid => omniauth['uid'], :raw_auth => omniauth.to_json)
+      end
+      
+      def password_required?
+        (authentications.empty? || !password.blank?) && super
       end
       
     end 

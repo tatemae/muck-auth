@@ -1,7 +1,7 @@
 class DefaultController < ApplicationController
   
   def index
-    @user = User.create
+    redirect_to :authentications
   end
   
 end

@@ -1,0 +1,41 @@
+<%= muck_form_for @user, :url => users_path, :html => {:id => "register-user-form", :name => 'register-user-form'} do |f| -%>
+
+	<%= t('muck.auth.sign_up_prompt') %>
+	
+	<% if MuckUsers.configuration.require_access_code -%>
+    <%= f.text_field :access_code_code, { :label => translate('muck.users.access_code'), 
+                                          :extra_html => translate('muck.users.access_code_help', 
+                                            :access_request_anchor => %Q{<a class="fancy-pop iframe" href="#{new_access_code_request_path}">},
+                                            :access_request_anchor_end => "</a>").html_safe } -%>
+  <% end -%>
+  
+	<%= f.text_field :login, { :label => t('muck.users.choose_member_name'), 
+	                           :extra_html => '', 
+	                           :tip => t('muck.users.username_help'),
+	                           :required_label => t('muck.users.username') } -%>
+	<%= f.text_field :email, { :label => t('muck.users.email_address'),
+	                           :tip => t('muck.users.email_help'),
+	                           :extra_html => '' } -%>
+	<%= f.password_field :password, { :label => t('muck.users.password'),
+	                                  :tip => t('muck.users.password_help')} -%>
+	<%= f.password_field :password_confirmation, { :label => t('muck.users.confirm_password'),
+                                                 :tip => t('muck.users.password_confirmation_help') } -%>
+	
+	<% if MuckUsers.configuration.validate_terms_of_service -%>
+    <div class="checklist">
+      <%= f.check_box :terms_of_service, { :label => t('muck.users.terms_and_service', :tos_link_anchor => '<a href="/terms_of_service">', :link_end => '</a>').html_safe,
+     																		   :tip => t('muck.users.terms_and_service_tip') } -%>
+    </div>
+  <% end -%>
+	
+	<%= f.fields_for :authentications do |af| -%>
+    <%= af.hidden_field :provider %>
+    <%= af.hidden_field :uid %>
+    <%= af.hidden_field :raw_auth %>
+  <% end %>
+	
+	<div class="button form-row">
+  	<%= f.submit t('muck.users.sign_up_now') %>
+  </div>
+  
+<% end -%>

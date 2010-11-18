@@ -22,13 +22,13 @@ module MuckProfiles
     end
 
     initializer "muck_auth.add_middleware" do |app|
-      raise MuckAuth::Exceptions::InvalidConfiguration, "Please provide a valid configuration for Muck Auth." if MuckAuth.configuration.oauth_credentials.blank?
-      MuckAuth.configuration.oauth_credentials.each_key do |key|
+      raise MuckAuth::Exceptions::InvalidConfiguration, "Please provide a valid configuration for Muck Auth." if MuckAuth.configuration.auth_credentials.blank?
+      MuckAuth.configuration.auth_credentials.each_key do |key|
         app.middleware.use OmniAuth::Builder do
-          provider key, MuckAuth.configuration.oauth_credentials[key]['key'], MuckAuth.configuration.oauth_credentials[key]['secret']
+          provider key, MuckAuth.configuration.auth_credentials[key]['key'], MuckAuth.configuration.auth_credentials[key]['secret']
         end  
       end
     end
-            
+       
   end
 end

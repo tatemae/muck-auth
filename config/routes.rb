@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  match '/auth/:provider/callback' => 'muck/authentications#create', :controller => 'muck/auth'
+  resources :authentications, :controller => 'muck/authentications'
+  match '/auth/:provider/callback' => 'muck/authentications#create', :controller => 'muck/authentications'
+  match '/auth/failure' => 'muck/authentications#failure', :controller => 'muck/authentications'
 end

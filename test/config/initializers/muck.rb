@@ -54,7 +54,7 @@ MuckUsers.configure do |config|
 end
 
 MuckAuth.configure do |config|
-  config.oauth_credentials = Secrets.oauth_credentials
+  config.auth_credentials = Secrets.auth_credentials
 end
 
 if defined?(ActiveRecord)

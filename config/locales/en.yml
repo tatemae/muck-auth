@@ -1,7 +1,13 @@
 --- 
 en: 
   muck: 
-    auth: 
+    auth:
+      problem_creating_account: "There was a problem creating your account."
+      removed_authentication: Successfully removed authentication.
+      authentication_success: Authentication successful.
+      you_can_connect_to_the_following_services: "You can connect to the following services:"
+      auth_connect_error: An error occurred while trying to connect to the service.
+      sign_up_prompt: In order to continue please provide the information below.
       back: Back
       do_you_have_an_application_to_register: Do you have an application you would like to register for use with us using the %{link} standard?
       support_url_label: Support URL
@@ -26,7 +32,6 @@ en:
       you_are_already_connected_to: You are already Connected to %{service}
       request_token_url: Request Token URL
       application: Application
-      you_can_connect_to_the_following_services: "You can connect to the following services:"
       back_label: Back
       callback_label: Callback URL*
       authorize_access_label: authorize access
