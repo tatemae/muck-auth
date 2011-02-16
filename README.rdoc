@@ -23,11 +23,20 @@ Add services by including the proper credentials in secrets.yml:
       key: '{get a key}'
       secret: '{it comes with a secret}'
     
-For a complete list of all available services please consult the omniauth documentation as the available services are constantly changing:
+=== OAuth Services
+Here's a list of common oauth services. For a complete list of all available services please consult the omniauth documentation as the available services are constantly changing:
 https://github.com/intridea/omniauth
 
+  Twitter:    http://www.twitter.com/apps 
+  Google:     http://code.google.com/apis/accounts/docs/RegistrationForWebAppsAuto.html#register
+  Yahoo:      http://developer.yahoo.com/flickr/
+  Flick:      http://www.flickr.com/services/apps/create/apply
+  Linked In:  https://www.linkedin.com/secure/developer
+  Friendfeed: https://friendfeed.com/account/login?next=%2Fapi%2Fregister  
+  
 == Usage
-
+Render a full list of all services with links to authorize the service and icons:
+  <%= render :partial => 'authentications/available_services', :locals => { :include_icons => true } %>
 
 
 Copyright (c) 2009-2011 Tatemae.com. See LICENSE for details.
