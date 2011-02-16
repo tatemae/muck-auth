@@ -38,5 +38,7 @@ https://github.com/intridea/omniauth
 Render a full list of all services with links to authorize the service and icons:
   <%= render :partial => 'authentications/available_services', :locals => { :include_icons => true } %>
 
+Render a list of all services that the current_user has authorized:
+  <%= render :partial => 'authentications/current_services', :locals => { :include_icons => true, :authentications => current_user.authentications } %>
 
 Copyright (c) 2009-2011 Tatemae.com. See LICENSE for details.

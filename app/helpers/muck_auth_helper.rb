@@ -29,7 +29,7 @@ module MuckAuthHelper
   end
   
   def auth_css_class(auth)
-    auth.to_s.parameterize
+    auth.parameterize
   end
   
 end
