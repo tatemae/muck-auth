@@ -12,11 +12,6 @@ module MuckAuth
 
   class Configuration
     
-    attr_accessor :auth_credentials
-    
-    def initialize
-      self.auth_credentials = {}
-    end
-    
   end
+  
 end

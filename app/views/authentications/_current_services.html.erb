@@ -6,7 +6,7 @@
     <ul <%='class="icon-list"' if include_icons%>>
       <% authentications.each do |authentication| -%>
         <li class="<%=token.class.service_name.to_s.parameterize%> oauth_service service-link" <%= service_icon_background(token.class.service_name) if include_icons %>>
-          <%= link_to auth_service_name(authentication.provider), oauth_consumer_path(token.class.service_name), :class => 'authfancybox' %>
+          <%= link_to auth_name(authentication.provider), oauth_consumer_path(token.class.service_name), :class => 'authfancybox' %>
           <%= link_to "X", authentication, :confirm => 'Are you sure you want to remove this authentication option?', :method => :delete, :class => "remove" %>
         </li>
       <% end -%>

@@ -1,5 +1,33 @@
 = muck-auth
 This gem wraps the omniauth gem to make it simple to authenticate with multiple services.
 
+== Installation
 
-Copyright (c) 2009-2010 Tatemae.com. See LICENSE for details.
+Add muck-auth to your Gemfile:
+  gem 'muck-auth'
+
+
+After installing muck-auth be sure to sync the gem:
+
+  rake muck:sync:auth
+  
+or to sync everything from the muck framework:
+
+  rake muck:sync
+  
+== Configuration
+Add services by including the proper credentials in secrets.yml:
+
+  auth_credentials:
+    twitter: # Twitter api access: http://www.twitter.com/apps 
+      key: '{get a key}'
+      secret: '{it comes with a secret}'
+    
+For a complete list of all available services please consult the omniauth documentation as the available services are constantly changing:
+https://github.com/intridea/omniauth
+
+== Usage
+
+
+
+Copyright (c) 2009-2011 Tatemae.com. See LICENSE for details.

@@ -2,7 +2,7 @@ require 'rails'
 require 'omniauth/oauth'
 require 'muck-auth'
 
-module MuckProfiles
+module MuckAuth
   class Engine < ::Rails::Engine
     
     def muck_name
@@ -22,12 +22,12 @@ module MuckProfiles
     end
 
     initializer "muck_auth.add_middleware" do |app|
-      raise MuckAuth::Exceptions::InvalidConfiguration, "Please provide a valid configuration for Muck Auth." if MuckAuth.configuration.auth_credentials.blank?
-      MuckAuth.configuration.auth_credentials.each_key do |key|
-        app.middleware.use OmniAuth::Builder do
-          provider key, MuckAuth.configuration.auth_credentials[key]['key'], MuckAuth.configuration.auth_credentials[key]['secret']
+      raise MuckAuth::Exceptions::InvalidConfiguration, "Please provide a valid configuration for Muck Auth." if Secrets.auth_credentials.blank?
+      Secrets.auth_credentials.each_key do |key|
+        Rails.application.config.middleware.use OmniAuth::Builder do
+          provider key, Secrets.auth_credentials[key]['key'], Secrets.auth_credentials[key]['secret']
         end  
-      end
+      end      
     end
        
   end

@@ -5,7 +5,7 @@ module MuckAuth
       extend ActiveSupport::Concern
     
       included do
-        has_many :authentications
+        has_many :authentications, :as => :authenticatable, :dependent => :destroy
         accepts_nested_attributes_for :authentications, :allow_destroy => true
       end
       
