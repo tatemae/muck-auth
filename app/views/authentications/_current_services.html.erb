@@ -1,8 +1,8 @@
 <div id="auth_current_services" class="auth-services">
   <% if authentications.empty? -%>
-    <p><%=translate('muck.oauth.you_are_currently_not_connected_to_any_external_services') %></p>
+    <p><%=translate('muck.auth.you_are_currently_not_connected_to_any_external_services') %></p>
   <% else -%>
-    <p><%=translate('muck.oauth.you_are_connected_to_the_following_services') %></p>
+    <p><%=translate('muck.auth.you_are_connected_to_the_following_services') %></p>
     <ul <%='class="icon-list"' if include_icons%>>
       <% authentications.each do |auth| -%>
         <li class="<%=auth_css_class(auth.provider)%> oauth_service service-link" <%= auth_icon_back(auth.provider, include_icons) %>>

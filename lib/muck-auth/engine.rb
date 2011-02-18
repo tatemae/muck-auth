@@ -23,9 +23,9 @@ module MuckAuth
 
     initializer "muck_auth.add_middleware" do |app|
       raise MuckAuth::Exceptions::InvalidConfiguration, "Please provide a valid configuration for Muck Auth." if Secrets.auth_credentials.blank?
-      Secrets.auth_credentials.each_key do |key|
+      Secrets.auth_credentials.each_key do |provider|
         Rails.application.config.middleware.use OmniAuth::Builder do
-          provider key, Secrets.auth_credentials[key]['key'], Secrets.auth_credentials[key]['secret']
+          provider(provider, Secrets.auth_credentials[provider]['key'], Secrets.auth_credentials[provider]['secret'], :scope => Secrets.auth_credentials[provider]['scope'])
         end  
       end      
     end
