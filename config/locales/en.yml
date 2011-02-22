@@ -1,13 +1,8 @@
 --- 
 en: 
   muck: 
-    auth:
-      problem_creating_account: "There was a problem creating your account."
-      removed_authentication: Successfully removed authentication.
-      authentication_success: Authentication successful.
-      you_can_connect_to_the_following_services: "You can connect to the following services:"
-      auth_connect_error: An error occurred while trying to connect to the service.
-      sign_up_prompt: In order to continue please provide the information below.
+    auth: 
+      remove_authentication_confirm: Are you sure you want to remove this authentication option?
       back: Back
       do_you_have_an_application_to_register: Do you have an application you would like to register for use with us using the %{link} standard?
       support_url_label: Support URL
@@ -20,6 +15,7 @@ en:
       issued: Issued
       main_application_label: Main Application URL*
       destroyed_successfully: Destroyed the client application registration
+      removed_authentication: Successfully removed authentication.
       connect_to_account_title: Connect to your %{service} account
       or: or
       register_a_new_application: Register a new application
@@ -32,6 +28,9 @@ en:
       you_are_already_connected_to: You are already Connected to %{service}
       request_token_url: Request Token URL
       application: Application
+      you_can_connect_to_the_following_services: "You can connect to the following services:"
+      auth_connect_error: An error occurred while trying to connect to the service.
+      sign_up_prompt: In order to continue please provide the information below.
       back_label: Back
       callback_label: Callback URL*
       authorize_access_label: authorize access
@@ -41,9 +40,12 @@ en:
       authorize_url: Authorize URL
       access_token_url: Access Token URL
       tokens_issued: The following tokens have been issued to applications in your name
+      http_result_error: There was a problem with your request %{error}
+      authentication_success: Authentication successful.
       services: Services
       revoke: Revoke!
       authorize_access: Authorize access to your account
+      problem_creating_account: There was a problem creating your account.
       you_have_the_following_client_applications_registered: "You have the following client applications registered:"
       you_must_register_your_web_application: You must register your web application before it can make OAuth requests to this service
       show_label: Show
@@ -54,4 +56,3 @@ en:
       we_support_hmac_sha: We support hmac-sha1 (recommended) as well as plain text in ssl mode.
       consume_secret: "Consumer Secret:"
       request_disallowed: You have disallowed this request
-      http_result_error: "There was a problem with your request %{error}"
