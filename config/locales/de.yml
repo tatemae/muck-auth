@@ -1,0 +1,58 @@
+--- 
+de: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Anwendung
+      application_developers: Anwendungsentwickler
+      are_you_sure: "Sind Sie sicher?"
+      auth_connect_error: "Ein Fehler trat beim Versuch, den Dienst zu treten."
+      authentication_success: "Authentifizierung erfolgreich."
+      authorize_access: "Autorisieren Zugriff auf Ihr Konto"
+      authorize_access_label: "Autorisierung des Zugriffs"
+      authorize_access_question: "Möchten Sie die %{name}} (%{link}) genehmigen auf Ihr Konto zugreifen?"
+      authorize_url: "Autorisieren URL"
+      back: Zurück
+      back_label: Zurück
+      callback_label: "Callback-URL *"
+      connect_to_account_title: "Verbinden Sie Ihr Konto %{service}"
+      consume_secret: "Consumer Secret:"
+      delete: Löschen
+      destroyed_successfully: "Zerstört die Client-Anwendung Registrierung"
+      disconnect: Trennen
+      disconnect_or_reconnect: "%{disconnect}} Oder %{reconnect} wenn Sie erfahren ein Problem."
+      do_you_have_an_application_to_register: "Haben Sie eine Anwendung, die Sie gerne für den Einsatz mit uns über das %{link} Standard Register würde?"
+      edit: Bearbeiten
+      edit_application: "Bearbeiten Sie Ihre Anwendung"
+      edit_label: Bearbeiten
+      http_result_error: "Es gab ein Problem mit Ihrer Anfrage %{error}"
+      issued: Ausgestellt
+      main_application_label: "Hauptanwendung URL *"
+      name_label: "Name *"
+      or: oder
+      problem_creating_account: "Es gab ein Problem beim Erstellen Ihres Kontos."
+      reconnect: Schließen
+      register: Registrieren
+      register_a_new_application: "Registrieren Sie einen neuen Antrag"
+      register_your_application: "Registrieren Sie Ihre Anwendung"
+      registered_successfully: "Registriert die Informationen erfolgreich"
+      remove_authentication_confirm: "Sind Sie sicher, dass Sie diese Option Authentifizierung entfernen?"
+      removed_authentication: "Erfolgreich entfernt Authentifizierung."
+      request_allowed: "Sie haben diesen Antrag zulässig"
+      request_disallowed: "Sie haben diesen Antrag nicht zulässig"
+      request_token_url: "Request-Token URL"
+      revoke: Widerrufen!
+      services: Dienstleistungen
+      show_label: Show
+      sign_up_prompt: "Um auch in Zukunft geben Sie bitte die unten stehenden Informationen."
+      support_url_label: "Support URL"
+      tokens_issued: "Die folgenden Token müssen Anwendungen auf Ihren Namen ausgestellt"
+      updated_successfully: "Aktualisierung der Client-Informationen erfolgreich"
+      we_support_hmac_sha: "Wir unterstützen HMAC-SHA1 (empfohlen) als auch als Nur-Text im SSL-Modus."
+      wrong_id: "Falsche Anwendung id"
+      you_are_already_connected_to: "Sie sind bereits auf %{service} Connected"
+      you_are_connected_to_the_following_services: "Sie befinden sich auf folgende Leistungen verbunden:"
+      you_are_currently_not_connected_to_any_external_services: "Sie sind derzeit nicht auf externe Dienste angeschlossen."
+      you_can_connect_to_the_following_services: "Sie können die folgenden Dienste in Verbindung zu treten:"
+      you_have_the_following_client_applications_registered: "Sie haben folgende Client-Anwendungen registriert:"
+      you_must_register_your_web_application: "Sie müssen sich registrieren Ihre Web-Anwendung, bevor es OAuth Zugriffe auf diesen Service nutzen können"

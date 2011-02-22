@@ -1,0 +1,58 @@
+--- 
+sq: 
+  muck: 
+    auth: 
+      access_token_url: "URL Access Token"
+      application: Zbatim
+      application_developers: "Application Developers"
+      are_you_sure: "A jeni i sigurt?"
+      auth_connect_error: "Një gabim ndodhi gjatë përpjekjes për t&#39;u lidhur me shërbimin."
+      authentication_success: "Authentication suksesshme."
+      authorize_access: "qasje të autorizojë në llogarinë tuaj"
+      authorize_access_label: "autorizojë qasje"
+      authorize_access_question: "Do të dëshironit të autorizojë (%{name}) %{link}} për të hyrë në llogarinë tuaj?"
+      authorize_url: "URL autorizojë"
+      back: Mbrapa
+      back_label: Mbrapa
+      callback_label: "URL Callback *"
+      connect_to_account_title: "Lidhu me %{service} llogarinë tuaj"
+      consume_secret: "Sekret Konsumatorit:"
+      delete: Fshij
+      destroyed_successfully: "Shkatërruar e regjistrimit kërkesën e klientit"
+      disconnect: Shqit
+      disconnect_or_reconnect: "%{disconnect}} Ose %{reconnect} nëse keni përjetuar një problem."
+      do_you_have_an_application_to_register: "A keni një aplikim që ju do të donte që të regjistrohen për të përdorur me ne duke përdorur standardin %{link}?"
+      edit: Redaktoj
+      edit_application: "Edit kërkesën tuaj"
+      edit_label: Redaktoj
+      http_result_error: "Ka pasur një problem me kërkesën tuaj %{error}"
+      issued: Lëshuar
+      main_application_label: "URL Kryesore Aplikimi *"
+      name_label: "Emri *"
+      or: ose
+      problem_creating_account: "Nuk ishte një problem i krijuar llogarinë tuaj."
+      reconnect: Reconnect
+      register: Regjistrohu
+      register_a_new_application: "Regjistruar një kërkesë të re"
+      register_your_application: "Regjistrohu kërkesën tuaj"
+      registered_successfully: "Regjistruar të dhënat me sukses"
+      remove_authentication_confirm: "A jeni i sigurt se doni të hiqni këtë opsion authentication?"
+      removed_authentication: "hequr me sukses authentication."
+      request_allowed: "Ju keni lejuar kete kerkese"
+      request_disallowed: "Ju keni ndaluar kete kerkese"
+      request_token_url: "URL Kërkesë Token"
+      revoke: Revokojë!
+      services: Shërbimet
+      show_label: Tregojnë
+      sign_up_prompt: "Në mënyrë që të vazhdojë lutem siguroni informacionet më poshtë."
+      support_url_label: "URL Support"
+      tokens_issued: "Argumentet e mëposhtme janë lëshuar për të aplikimeve në emrin tuaj"
+      updated_successfully: "Përditësuar informacionit të klientit me sukses"
+      we_support_hmac_sha: "Ne mbështesim hmac-SHA1 (rekomandohet) si edhe si tekst i thjeshtë në mënyrë ssl."
+      wrong_id: "aplikim i gabuar id"
+      you_are_already_connected_to: "Ju jeni lidhur tashmë të %{service}"
+      you_are_connected_to_the_following_services: "Ju jeni lidhur me shërbimet e mëposhtme:"
+      you_are_currently_not_connected_to_any_external_services: "Ju nuk janë të lidhura me ndonjë shërbimet e jashtme."
+      you_can_connect_to_the_following_services: "Ju mund të lidheni me shërbimet e mëposhtme:"
+      you_have_the_following_client_applications_registered: "Ju keni aplikimet e mëposhtme klientit të regjistruar:"
+      you_must_register_your_web_application: "Ju duhet të regjistroheni aplikimin tuaj web para se ajo mund të bëjë kërkesa OAuth për këtë shërbim"

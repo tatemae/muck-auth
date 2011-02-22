@@ -1,0 +1,58 @@
+--- 
+ko: 
+  muck: 
+    auth: 
+      access_token_url: "액세스 토큰 URL"
+      application: "응용 프로그램"
+      application_developers: "응용 프로그램 개발자"
+      are_you_sure: "당신은 확실한가요?"
+      auth_connect_error: "오류가 서비스에 연결을 시도하는 동안 발생했습니다."
+      authentication_success: "인증 성공."
+      authorize_access: "귀하의 계정에 액세스 권한 부여"
+      authorize_access_label: "액세스 권한을 부여"
+      authorize_access_question: "귀하의 계정에 액세스 권한을 부여 %{name}} (%{link})시겠습니까?"
+      authorize_url: "허가 홈페이지"
+      back: 위로
+      back_label: 위로
+      callback_label: "콜백 URL이 *"
+      connect_to_account_title: "귀하의 %{service} 계정에 연결"
+      consume_secret: "소비자 비밀 번호 :"
+      delete: 삭제
+      destroyed_successfully: "클라이언트 응용 프로그램 등록을 파괴"
+      disconnect: "연결 끊기"
+      disconnect_or_reconnect: "%{disconnect}} 또는 %{reconnect} 당신이 문제가 발생하는 경우."
+      do_you_have_an_application_to_register: "당신은 우리가 %{link} 표준을 사용하여 사용하기 위해 등록을하고자하는 응용 프로그램이 있나요?"
+      edit: 수정
+      edit_application: "응용 프로그램을 수정"
+      edit_label: 수정
+      http_result_error: "귀하의 요청에 문제가 발생했습니다 %{error}"
+      issued: 발급
+      main_application_label: "주요 응용 프로그램의 URL *"
+      name_label: "이름 *"
+      or: 또는
+      problem_creating_account: "귀하의 계정을 만드는 문제가 발생했습니다."
+      reconnect: "다시 연결"
+      register: 레지스터
+      register_a_new_application: "새 응용 프로그램을 등록"
+      register_your_application: "응용 프로그램을 등록"
+      registered_successfully: "등록된 성공적 정보"
+      remove_authentication_confirm: "당신이이 인증 옵션을 제거하십시오시겠습니까?"
+      removed_authentication: "성공적으로 인증을 제거했습니다."
+      request_allowed: "당신은이 요청을 허락"
+      request_disallowed: "당신이이 요청을 허용"
+      request_token_url: "요청 토큰 URL"
+      revoke: 취소!
+      services: 서비스
+      show_label: 보기
+      sign_up_prompt: "위해서 아래의 정보를 입력해주십시오 계속합니다."
+      support_url_label: "지원 URL을"
+      tokens_issued: "다음의 토큰의 이름으로 응용 프로그램에 발행되었습니다"
+      updated_successfully: "성공적으로 고객 정보를 업데이 트"
+      we_support_hmac_sha: "우리는 hmac - sha1 (권장)뿐만 아니라, SSL을 모드에서 일반 텍스트를 지원합니다."
+      wrong_id: "잘못된 응용 프로그램 ID를"
+      you_are_already_connected_to: "당신은 이미 %{service}에 연결되어"
+      you_are_connected_to_the_following_services: "당신은 다음의 서비스에 연결된 위치 :"
+      you_are_currently_not_connected_to_any_external_services: "현재 외부 서비스에 연결되지 않습니다."
+      you_can_connect_to_the_following_services: "다음과 같은 서비스에 연결할 수 있습니다 :"
+      you_have_the_following_client_applications_registered: "다음과 같은 클라이언트 응용 프로그램 등록 :"
+      you_must_register_your_web_application: "그것은이 서비스에 OAuth 요청을 할 수 전에 귀하의 웹 응용 프로그램을 등록해야합니다"

@@ -1,0 +1,58 @@
+--- 
+mt: 
+  muck: 
+    auth: 
+      access_token_url: "Aċċess URL Token"
+      application: Applikazzjoni
+      application_developers: "Application Developers"
+      are_you_sure: "Are you sure?"
+      auth_connect_error: "Ġara żball waqt li jipprova li jgħaqqdu lis-servizz."
+      authentication_success: "Awtentikazzjoni ta &#39;suċċess."
+      authorize_access: "jawtorizzaw l-aċċess għall-kont tiegħek"
+      authorize_access_label: "jawtorizza l-aċċess"
+      authorize_access_question: "Tixtieq li jawtorizza (%{name}) %{link}} aċċess għall-kont tiegħek?"
+      authorize_url: "URL Awtoriżża"
+      back: Lura
+      back_label: Lura
+      callback_label: "URL Callback *"
+      connect_to_account_title: "Qabbad l-kont %{service} tiegħek"
+      consume_secret: "Sigriet tal-Konsumatur:"
+      delete: Ħassar
+      destroyed_successfully: "Meqruda-reġistrazzjoni applikazzjoni tal-klijent"
+      disconnect: Skonnettja
+      disconnect_or_reconnect: "%{disconnect}} Jew %{reconnect} jekk inti esperjenzajt xi problema."
+      do_you_have_an_application_to_register: "Għandek xi talba li int tixtieq reġistru għall-użu magħna jużaw l-istandard %{link}?"
+      edit: Edit
+      edit_application: "Edit-applikazzjoni tiegħek"
+      edit_label: Edit
+      http_result_error: "Kien hemm problema mat-talba tiegħek %{error}"
+      issued: Maħruġ
+      main_application_label: "Applikazzjoni Main URL *"
+      name_label: "Isem *"
+      or: jew
+      problem_creating_account: "Kien hemm problema jinħoloq-kont tiegħek."
+      reconnect: Reconnect
+      register: Reġistru
+      register_a_new_application: "Reġistru applikazzjoni ġdida"
+      register_your_application: "Tirreġistra l-applikazzjoni tiegħek"
+      registered_successfully: "Irreġistra l-informazzjoni b&#39;suċċess"
+      remove_authentication_confirm: "Inti żgur li trid tneħħi din l-għażla awtentikazzjoni?"
+      removed_authentication: "Jitneħħew b&#39;suċċess awtentikazzjoni."
+      request_allowed: "Inti għandek permess din it-talba"
+      request_disallowed: "Inti għandek ma tintlaqax din it-talba"
+      request_token_url: "Talba Token URL"
+      revoke: Tirrevoka!
+      services: Servizzi
+      show_label: Uri
+      sign_up_prompt: "Sabiex ikompli jekk jogħġbok ipprovdi l-informazzjoni hawn taħt."
+      support_url_label: "URL Appoġġ"
+      tokens_issued: "Il-tokens li ġejjin ġew maħruġa għall-applikazzjonijiet fl-isem tiegħek"
+      updated_successfully: "Aġġornat it-tagħrif klijent b&#39;suċċess"
+      we_support_hmac_sha: "Aħna nappoġġaw hmac-SHA1 (rakkomandat) kif ukoll bħala test sempliċi fil-modalità SSL."
+      wrong_id: "applikazzjoni żbaljata id"
+      you_are_already_connected_to: "Inti diġà huma konnessi ma %{service}"
+      you_are_connected_to_the_following_services: "Inti huma konnessi mal-servizzi li ġejjin:"
+      you_are_currently_not_connected_to_any_external_services: "Inti bħalissa mhumiex konnessi ma &#39;xi servizzi esterni."
+      you_can_connect_to_the_following_services: "Tista &#39;tqabbad lill-servizzi li ġejjin:"
+      you_have_the_following_client_applications_registered: "Inti għandek l-applikazzjonijiet tal-klijenti li ġejjin rreġistrati:"
+      you_must_register_your_web_application: "Int trid tirreġistra web applikazzjoni tiegħek qabel ma tista &#39;tagħmel talbiet OAuth għal dan is-servizz"

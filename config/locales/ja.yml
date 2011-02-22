@@ -1,0 +1,58 @@
+--- 
+ja: 
+  muck: 
+    auth: 
+      access_token_url: アクセストークンのURL
+      application: アプリケーション
+      application_developers: アプリケーション開発者
+      are_you_sure: あなたはよろしいですか？
+      auth_connect_error: エラーは、サービスへの接続中にエラーが発生しました。
+      authentication_success: 認証に成功しました。
+      authorize_access: あなたのアカウントに承認のアクセス
+      authorize_access_label: アクセスを許可する
+      authorize_access_question: "あなたのアカウントにアクセスするための%{name}} (%{link})を許可するか？"
+      authorize_url: 承認のURL
+      back: 戻る
+      back_label: 戻る
+      callback_label: "コールバックURL *"
+      connect_to_account_title: "あなたの%{service}アカウントに接続する"
+      consume_secret: 消費者の秘密：
+      delete: 削除
+      destroyed_successfully: クライアントアプリケーションの登録を破棄
+      disconnect: 切断
+      disconnect_or_reconnect: "%{disconnect}}または%{reconnect}は、問題が発生した場合。"
+      do_you_have_an_application_to_register: "あなたは私たちが%{link}標準を使用して使用するために登録したいアプリケーションをお持ちですか？"
+      edit: "[編集]"
+      edit_application: アプリケーションを編集する
+      edit_label: "[編集]"
+      http_result_error: "あなたの要求に問題があった%{error}"
+      issued: 発行
+      main_application_label: "メインアプリケーションのURL *"
+      name_label: お名前*
+      or: または
+      problem_creating_account: アカウントを作成するときに問題があった。
+      reconnect: 接続
+      register: レジスタ
+      register_a_new_application: 新しいアプリケーションを登録する
+      register_your_application: アプリケーションを登録
+      registered_successfully: 登録されて正常に情報
+      remove_authentication_confirm: あなたはこの認証オプションを削除してもよろしいですか？
+      removed_authentication: 正常に認証を削除しました。
+      request_allowed: あなたはこの要求を許可されている
+      request_disallowed: あなたが持っているこの要求を却下
+      request_token_url: 要求をトークンのURL
+      revoke: 取り消し！
+      services: サービス
+      show_label: 地図
+      sign_up_prompt: ためには、以下の情報を提供して続行してください。
+      support_url_label: サポートURL
+      tokens_issued: 次のトークンがあなたの名前のアプリケーションに発行されている
+      updated_successfully: 正常にクライアント情報を更新
+      we_support_hmac_sha: "我々は、HMAC - SHA1を（推奨）と同様にSSLモードでテキストをサポートしています。"
+      wrong_id: 間違っているアプリケーションがIDを
+      you_are_already_connected_to: "あなたは既に%{service}に接続されている"
+      you_are_connected_to_the_following_services: あなたは、次のサービスに接続されている：
+      you_are_currently_not_connected_to_any_external_services: 現在、任意の外部サービスに接続されていません。
+      you_can_connect_to_the_following_services: 次のサービスに接続することができます：
+      you_have_the_following_client_applications_registered: あなたは次のクライアントアプリケーションが登録されている：
+      you_must_register_your_web_application: それがこのサービスにOAuthリクエストを行うことができます前に、あなたのWebアプリケーションを登録する必要があります。

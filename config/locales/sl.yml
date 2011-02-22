@@ -1,0 +1,58 @@
+--- 
+sl: 
+  muck: 
+    auth: 
+      access_token_url: "Dostop žeton URL"
+      application: Uporaba
+      application_developers: "Uporaba Razvijalci"
+      are_you_sure: "Ali ste prepričani?"
+      auth_connect_error: "Prišlo je do napake, medtem ko poskuša povezati s storitvijo."
+      authentication_success: "Authentication uspešno."
+      authorize_access: "Dovolijo dostop do vašega računa"
+      authorize_access_label: "dovolijo dostop"
+      authorize_access_question: "Bi radi, da dovolijo %{name}} (%{link}) za dostop do vašega računa?"
+      authorize_url: "Dovolijo URL"
+      back: Nazaj
+      back_label: Nazaj
+      callback_label: "Povratni klic URL *"
+      connect_to_account_title: "Dostop do svojega računa %{service}"
+      consume_secret: "Consumer Secret:"
+      delete: Izbriši
+      destroyed_successfully: "Uničene registracijo odjemalske aplikacije"
+      disconnect: Odklopite
+      disconnect_or_reconnect: "%{disconnect}} Ali %{reconnect} če ste imeli problem."
+      do_you_have_an_application_to_register: "Imate aplikacijo, ki jo želi registrirati za uporabo z nami na standardnem %{link}?"
+      edit: Uredi
+      edit_application: "Uredi prijavo"
+      edit_label: Uredi
+      http_result_error: "Prišlo je do težave z vašo zahtevo %{error}"
+      issued: Izdan
+      main_application_label: "Main Application URL *"
+      name_label: "Ime *"
+      or: ali
+      problem_creating_account: "Prišlo je do težave pri ustvarjanju računa."
+      reconnect: Znova
+      register: Register
+      register_a_new_application: "Register novo aplikacijo"
+      register_your_application: "Register prijavo"
+      registered_successfully: "Registrirani podatki uspešno"
+      remove_authentication_confirm: "Ali ste prepričani, da želite odstraniti ta pristnosti možnost?"
+      removed_authentication: "Uspešno odstranjena pristnosti."
+      request_allowed: "Imate dovoljeno to zahtevo"
+      request_disallowed: "Ste zavrnili to prošnjo"
+      request_token_url: "Zahteva žeton URL"
+      revoke: Prekliči!
+      services: Storitve
+      show_label: Prikaži
+      sign_up_prompt: "Da bi še naprej navedite spodnje podatke."
+      support_url_label: "Podpora URL"
+      tokens_issued: "Naslednji žetoni so bile izdane do aplikacij na vaše ime"
+      updated_successfully: "Zadnjič stranko informacij uspešno"
+      we_support_hmac_sha: "Podpiramo hmac-sha1 (priporočeno), pa tudi kot golo besedilo v ssl načina."
+      wrong_id: "Napačna uporaba id"
+      you_are_already_connected_to: "Ste že priključeni na %{service}"
+      you_are_connected_to_the_following_services: "Vi ste priključeni na naslednje storitve:"
+      you_are_currently_not_connected_to_any_external_services: "Trenutno niste povezani z nobenim zunanje službe."
+      you_can_connect_to_the_following_services: "Lahko se povežete z naslednjih storitev:"
+      you_have_the_following_client_applications_registered: "Imate naslednje stranke prošenj:"
+      you_must_register_your_web_application: "Morate registrirati vašo spletno aplikacijo, preden bo lahko OAuth prijave za to storitev"

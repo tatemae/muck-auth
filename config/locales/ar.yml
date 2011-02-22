@@ -1,0 +1,58 @@
+--- 
+ar: 
+  muck: 
+    auth: 
+      access_token_url: "عنوان رمز الوصول"
+      application: التطبيق
+      application_developers: "مطوري التطبيقات"
+      are_you_sure: "هل أنت متأكد؟"
+      auth_connect_error: "حدث خطأ أثناء محاولة الاتصال في الخدمة."
+      authentication_success: "المصادقة الناجحة."
+      authorize_access: "السماح بالوصول إلى حسابك"
+      authorize_access_label: "السماح بالوصول"
+      authorize_access_question: "هل تريد أن يأذن (%{name})%{link}} للوصول إلى حسابك؟"
+      authorize_url: "تأذن رابط"
+      back: العودة
+      back_label: العودة
+      callback_label: "رد عنوان *"
+      connect_to_account_title: "تواصل لحساب الخاص %{service}"
+      consume_secret: "المستهلك السري :"
+      delete: حذف
+      destroyed_successfully: "دمر تسجيل التطبيق العميل"
+      disconnect: قطع
+      disconnect_or_reconnect: "%{disconnect}} أو إذا كان لديك خبرة %{reconnect} مشكلة."
+      do_you_have_an_application_to_register: "هل لديك تطبيق كنت ترغب في سجل للاستخدام مع لنا باستخدام معيار %{link}؟"
+      edit: تحرير
+      edit_application: "تحرير التطبيق الخاص بك"
+      edit_label: تحرير
+      http_result_error: "كانت هناك مشكلة مع طلبك %{error}"
+      issued: أصدر
+      main_application_label: "* عنوان التطبيق الرئيسي"
+      name_label: "اسم *"
+      or: أو
+      problem_creating_account: "كانت هناك مشكلة إنشاء حسابك."
+      reconnect: "إعادة الاتصال"
+      register: سجل
+      register_a_new_application: "تسجيل طلب جديد"
+      register_your_application: "سجل طلبك"
+      registered_successfully: "تسجيل المعلومات بنجاح"
+      remove_authentication_confirm: "هل أنت متأكد أنك تريد إزالة هذا الخيار المصادقة؟"
+      removed_authentication: "نجحت في إزالة المصادقة."
+      request_allowed: "ويسمح لك هذا الطلب"
+      request_disallowed: "لديك هذا الطلب غير مسموح"
+      request_token_url: "طلب رمز عنوان"
+      revoke: إلغاء!
+      services: الخدمات
+      show_label: عرض
+      sign_up_prompt: "من أجل مواصلة يرجى تقديم المعلومات أدناه."
+      support_url_label: "دعم رابط"
+      tokens_issued: "وقد صدرت الرموز التالية للتطبيقات في اسمك"
+      updated_successfully: "تحديث معلومات العميل بنجاح"
+      we_support_hmac_sha: "ونحن نؤيد hmac - SHA1 (مستحسن) ، وكذلك نص عادي في وضع خدمة تصميم المواقع."
+      wrong_id: "إضافة معرف التطبيق"
+      you_are_already_connected_to: "كنت متصلا مسبقا إلى %{service}"
+      you_are_connected_to_the_following_services: "أنت متصل إلى الخدمات التالية :"
+      you_are_currently_not_connected_to_any_external_services: "أنت الآن لا صلة لها بأي الخدمات الخارجية."
+      you_can_connect_to_the_following_services: "يمكنك الاتصال الخدمات التالية :"
+      you_have_the_following_client_applications_registered: "لديك تطبيقات العميل التالية مسجل :"
+      you_must_register_your_web_application: "يجب تسجيل تطبيق الويب الخاص بك قبل أن تتمكن من تقديم طلبات OAuth لهذه الخدمة"

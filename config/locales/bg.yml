@@ -1,0 +1,58 @@
+--- 
+bg: 
+  muck: 
+    auth: 
+      access_token_url: "Кода за достъп URL"
+      application: Прилагане
+      application_developers: "Разработчиците на приложения"
+      are_you_sure: "Сигурни ли сте?"
+      auth_connect_error: "Възникна грешка при опит да се свържете с услугата."
+      authentication_success: "Удостоверяване успешно."
+      authorize_access: "Разрешете достъп до профила си"
+      authorize_access_label: "разрешаване на достъп"
+      authorize_access_question: "Искате ли да се разреши %{name}} (%{link}) да влезете в профила си?"
+      authorize_url: "Включване URL"
+      back: Обратно
+      back_label: Обратно
+      callback_label: "Обр. URL *"
+      connect_to_account_title: "Свържете се с вашия профил %{service}"
+      consume_secret: "Тайната на потребителите:"
+      delete: Изтриване
+      destroyed_successfully: "Унищожени за регистрация на искането от клиента"
+      disconnect: Прекъсване
+      disconnect_or_reconnect: "%{disconnect}} Или %{reconnect} ако сте имали проблем."
+      do_you_have_an_application_to_register: "Имате ли приложение, което сте искали да се регистрират за работа с нас, като използвате стандартни %{link}?"
+      edit: Редактиране
+      edit_application: "Редактиране на Вашата кандидатура"
+      edit_label: Редактиране
+      http_result_error: "Имаше проблем с вашата заявка %{error}"
+      issued: Издаден
+      main_application_label: "Основни приложения URL *"
+      name_label: "Име *"
+      or: или
+      problem_creating_account: "Възникна проблем при създаването на профила си."
+      reconnect: Свързване
+      register: "Регистрирайте се"
+      register_a_new_application: "Регистрация на ново заявление"
+      register_your_application: "Регистрирайте вашата кандидатура"
+      registered_successfully: "Регистриран на информацията успешно"
+      remove_authentication_confirm: "Наистина ли искате да премахнете тази опция удостоверяване?"
+      removed_authentication: "Успешно отстранява удостоверяване."
+      request_allowed: "Можете да позволи тази заявка"
+      request_disallowed: "Трябва забранил тази заявка"
+      request_token_url: "Искане Знак URL"
+      revoke: Прекратяване!
+      services: Услуги
+      show_label: Покажи
+      sign_up_prompt: "За да продължи моля представете информацията по-долу."
+      support_url_label: "Подкрепа URL"
+      tokens_issued: "Следните символи са издадени на приложения във вашето име"
+      updated_successfully: "Актуализиран на клиента информация успешно"
+      we_support_hmac_sha: "Ние подкрепяме HMAC-sha1 (препоръчително), както и обикновен текст в SSL режим."
+      wrong_id: "Неправилно приложение номер"
+      you_are_already_connected_to: "Вие вече сте свързани към %{service}"
+      you_are_connected_to_the_following_services: "Вие сте свързани към следните услуги:"
+      you_are_currently_not_connected_to_any_external_services: "В момента не сте свързани към всякакви външни услуги."
+      you_can_connect_to_the_following_services: "Можете да се свържете на следните услуги:"
+      you_have_the_following_client_applications_registered: "Имате следните клиентски приложения регистрацията на:"
+      you_must_register_your_web_application: "Трябва да се регистрирате вашия уеб приложение, преди да може да OAuth заявления за тази услуга"

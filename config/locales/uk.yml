@@ -1,0 +1,58 @@
+--- 
+uk: 
+  muck: 
+    auth: 
+      access_token_url: "Маркер доступу URL"
+      application: Застосування
+      application_developers: "Розробників додатків"
+      are_you_sure: "Ви впевнені?"
+      auth_connect_error: "Сталася помилка при спробі підключитися до служби."
+      authentication_success: "Перевірка справжності успішно."
+      authorize_access: "Авторизація доступу до вашого рахунку"
+      authorize_access_label: "дозволити доступ"
+      authorize_access_question: "Ви хочете дозволити %{name}} (%{link}) отримати доступ до вашого рахунку?"
+      authorize_url: "Авторизація URL"
+      back: Назад
+      back_label: Назад
+      callback_label: "Зворотна адреса *"
+      connect_to_account_title: "Підключіть до вашого рахунку %{service}"
+      consume_secret: "Споживчі секрет:"
+      delete: Видалити
+      destroyed_successfully: "Знищено реєстрації клієнтського додатка"
+      disconnect: Відключати
+      disconnect_or_reconnect: "%{disconnect}} Або %{reconnect} Якщо ви зіткнулися з проблемою."
+      do_you_have_an_application_to_register: "У вас є програми ви хотіли б, щоб зареєструватися для використання з нами, використовуючи стандартні %{link}?"
+      edit: Змінити
+      edit_application: "Змінити додаток"
+      edit_label: Змінити
+      http_result_error: "Існував проблеми з вашим запитом %{error}"
+      issued: Випущений
+      main_application_label: "Головна програма URL *"
+      name_label: "Ім&#39;я *"
+      or: або
+      problem_creating_account: "Існував проблеми при створенні облікового запису."
+      reconnect: Знову
+      register: Реєстрація
+      register_a_new_application: "Реєстрація нового додатка"
+      register_your_application: "Реєстрація вашого застосування"
+      registered_successfully: "Зареєстровані інформацію успішно"
+      remove_authentication_confirm: "Ви впевнені, що хочете видалити цю опцію перевірки автентичності?"
+      removed_authentication: "Успішно видалено аутентифікації."
+      request_allowed: "Ви дозволили цьому запиту"
+      request_disallowed: "Ви заборонені даного запиту"
+      request_token_url: "Запит Token URL"
+      revoke: Скасувати!
+      services: Послуги
+      show_label: Показати
+      sign_up_prompt: "Для того, щоб продовжувати прохання представити інформацію нижче."
+      support_url_label: "Підтримка URL"
+      tokens_issued: "Наступні маркери були видані програми на ваше ім&#39;я"
+      updated_successfully: "Оновлено інформацію про клієнта успішно"
+      we_support_hmac_sha: "Ми підтримуємо HMAC-SHA1 (рекомендується), а у вигляді звичайного тексту в режимі SSL."
+      wrong_id: "Неправильне застосування ID"
+      you_are_already_connected_to: "Ви вже підключені до %{service}"
+      you_are_connected_to_the_following_services: "Ви підключені до наступних послуг:"
+      you_are_currently_not_connected_to_any_external_services: "У даний момент ви не підключені до будь-яких зовнішніх послуг."
+      you_can_connect_to_the_following_services: "Ви можете підключитися до наступних послуг:"
+      you_have_the_following_client_applications_registered: "У вас є такі програми, клієнт, зареєстрований:"
+      you_must_register_your_web_application: "Ви повинні зареєструвати веб-додаток, перш ніж він може зробити OAuth запитів на цю послугу"

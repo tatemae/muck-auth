@@ -1,0 +1,58 @@
+--- 
+pl: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Zastosowanie
+      application_developers: Programistów
+      are_you_sure: "Czy na pewno?"
+      auth_connect_error: "Wystąpił błąd podczas próby połączenia się z usługą."
+      authentication_success: "Autoryzacja zakończona sukcesem."
+      authorize_access: "Autoryzacja dostępu do konta"
+      authorize_access_label: "zezwolenia na dostęp"
+      authorize_access_question: "Czy chcesz zezwolić %{name}} (%{link}) dostęp do konta?"
+      authorize_url: "Autoryzacja URL"
+      back: Powrót
+      back_label: Powrót
+      callback_label: "URL * Callback"
+      connect_to_account_title: "Podłącz do swojego konta %{service}"
+      consume_secret: "Secret Konsumentów:"
+      delete: Usuń
+      destroyed_successfully: "Zniszczony wniosku o rejestrację klienta"
+      disconnect: Odłączyć
+      disconnect_or_reconnect: "%{disconnect}} %{reconnect} Lub jeśli wystąpił problem."
+      do_you_have_an_application_to_register: "Czy masz aplikację, którą chcesz się zarejestrować do użytku z nami przy użyciu standardowego %{link}?"
+      edit: Edytuj
+      edit_application: "Edytuj aplikacji"
+      edit_label: Edytuj
+      http_result_error: "Wystąpił problem z prośbą %{error}"
+      issued: Wydawane
+      main_application_label: "Adres URL aplikacji główna *"
+      name_label: "Imię i nazwisko *"
+      or: lub
+      problem_creating_account: "Wystąpił problem przy zakładaniu konta."
+      reconnect: Ponownie
+      register: "Zarejestruj się"
+      register_a_new_application: "Rejestracja nowego wniosku"
+      register_your_application: "Zarejestruj swój wniosek"
+      registered_successfully: "Zarejestrowani informacji powodzeniem"
+      remove_authentication_confirm: "Czy na pewno chcesz usunąć tę opcję uwierzytelniania?"
+      removed_authentication: "Pomyślnie usunięto uwierzytelniania."
+      request_allowed: "Masz dozwolone ten wniosek"
+      request_disallowed: "Masz wyłączona tego wniosku"
+      request_token_url: "Adres URL żądania tokenu"
+      revoke: Odwołaj!
+      services: Usługi
+      show_label: Pokaż
+      sign_up_prompt: "W celu kontynuacji należy podać poniższe informacje."
+      support_url_label: "Adres URL pomocy"
+      tokens_issued: "Następujące żetony zostały wydane do wniosków w nazwie"
+      updated_successfully: "Aktualizacja informacji o klientach z powodzeniem"
+      we_support_hmac_sha: "Wspieramy HMAC-SHA1 (zalecane), jak również w postaci zwykłego tekstu w trybie SSL."
+      wrong_id: "Nieprawidłowy identyfikator aplikacji"
+      you_are_already_connected_to: "Jesteś już podłączone do %{service}"
+      you_are_connected_to_the_following_services: "Jesteś połączony z następujących usług:"
+      you_are_currently_not_connected_to_any_external_services: "Obecnie nie jesteś podłączony do żadnych zewnętrznych usług."
+      you_can_connect_to_the_following_services: "Można połączyć się z następujących usług:"
+      you_have_the_following_client_applications_registered: "Dostępne są następujące aplikacje klienckie rejestracji:"
+      you_must_register_your_web_application: "Musisz się zarejestrować aplikacji internetowej, zanim będzie mogła zwracać się do tej usługi OAuth"

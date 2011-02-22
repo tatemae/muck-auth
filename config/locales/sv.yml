@@ -1,0 +1,58 @@
+--- 
+sv: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Ansökan
+      application_developers: Applikationsutvecklare
+      are_you_sure: "Är du säker?"
+      auth_connect_error: "Ett fel uppstod vid försök att ansluta till tjänsten."
+      authentication_success: "Autentisering lyckades."
+      authorize_access: "Tillåta tillträde till ditt konto"
+      authorize_access_label: "bevilja åtkomst"
+      authorize_access_question: "Vill du tillåta %{name}} (%{link}) komma åt ditt konto?"
+      authorize_url: "Godkänna URL"
+      back: Tillbaka
+      back_label: Tillbaka
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Anslut till ditt konto %{service}"
+      consume_secret: "Konsument Secret:"
+      delete: Radera
+      destroyed_successfully: "Förstörda registrering klientprogrammet"
+      disconnect: Koppla
+      disconnect_or_reconnect: "%{disconnect}} Eller %{reconnect} om du upplevt ett problem."
+      do_you_have_an_application_to_register: "Har du ett program som du vill registrera för användning med oss via %{link} standarden?"
+      edit: Redigera
+      edit_application: "Redigera din ansökan"
+      edit_label: Redigera
+      http_result_error: "Det uppstod ett problem med din förfrågan %{error}"
+      issued: Emitterade
+      main_application_label: "Huvudsaklig tillämpning URL *"
+      name_label: "Namn *"
+      or: eller
+      problem_creating_account: "Det uppstod ett problem med att skapa kontot."
+      reconnect: Återanslut
+      register: Registrera
+      register_a_new_application: "Registrera en ny ansökan"
+      register_your_application: "Registrera din ansökan"
+      registered_successfully: "Registrerad den information framgångsrikt"
+      remove_authentication_confirm: "Är du säker att du vill ta bort denna autentisering alternativ?"
+      removed_authentication: "Tagits bort autentisering."
+      request_allowed: "Du har gjort denna begäran"
+      request_disallowed: "Du har underkänt denna begäran"
+      request_token_url: "Begär Token URL"
+      revoke: Återkalla!
+      services: Tjänster
+      show_label: Visa
+      sign_up_prompt: "För att fortsätta ge följande information nedan."
+      support_url_label: "Support URL"
+      tokens_issued: "Följande variabler har utfärdats till program i ditt namn"
+      updated_successfully: "Uppdaterade kundinformation framgångsrikt"
+      we_support_hmac_sha: "Vi stöder HMAC-SHA1 (rekommenderas) samt oformaterad text i SSL-läge."
+      wrong_id: "Fel program-ID"
+      you_are_already_connected_to: "Du är redan ansluten till %{service}"
+      you_are_connected_to_the_following_services: "Du är ansluten till följande tjänster:"
+      you_are_currently_not_connected_to_any_external_services: "Du är inte ansluten till något externa tjänster."
+      you_can_connect_to_the_following_services: "Du kan ansluta till följande tjänster:"
+      you_have_the_following_client_applications_registered: "Du har följande klientprogram registrerad:"
+      you_must_register_your_web_application: "Du måste registrera din webbapplikation innan den kan göra OAuth begäran till den här tjänsten"

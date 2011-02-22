@@ -1,0 +1,58 @@
+--- 
+iw: 
+  muck: 
+    auth: 
+      access_token_url: "אסימון הגישה URL"
+      application: יישום
+      application_developers: "יישום מפתחים"
+      are_you_sure: "האם אתה בטוח?"
+      auth_connect_error: "אירעה שגיאה בעת ניסיון להתחבר לשירות."
+      authentication_success: "אימות מוצלח."
+      authorize_access: "לאשר גישה לחשבון שלך"
+      authorize_access_label: "לאשר גישה"
+      authorize_access_question: "האם אתה רוצה לאשר (%{name}) %{link}} לגשת לחשבון שלך?"
+      authorize_url: "לאשר תכנית"
+      back: חזרה
+      back_label: חזרה
+      callback_label: "איתות כתובת האתר *"
+      connect_to_account_title: "להתחבר לחשבון שלך %{service}"
+      consume_secret: "הצרכן החשאי:"
+      delete: מחק
+      destroyed_successfully: "הרסו את אחת יישום לקוח"
+      disconnect: לנתק
+      disconnect_or_reconnect: "%{disconnect}} או %{reconnect} אם אתה נתקל בבעיה."
+      do_you_have_an_application_to_register: "האם יש לך בקשה שאתה רוצה לרשום לשימוש איתנו באמצעות תקן %{link}?"
+      edit: לערוך
+      edit_application: "ערוך את בקשתך"
+      edit_label: לערוך
+      http_result_error: "היתה בעיה עם הבקשה שלך %{error}"
+      issued: הונפק
+      main_application_label: "ראשי URL בקשה *"
+      name_label: "שם *"
+      or: או
+      problem_creating_account: "היתה בעיה ביצירת חשבונך."
+      reconnect: "חבר מחדש"
+      register: הרשמה
+      register_a_new_application: "הרשם בקשה חדשה"
+      register_your_application: "הרשם בקשתך"
+      registered_successfully: "רשום את המידע בהצלחה"
+      remove_authentication_confirm: "האם אתה בטוח שאתה רוצה להסיר אפשרות זו אימות?"
+      removed_authentication: "הוסר בהצלחה אימות."
+      request_allowed: "אפשרת בקשה זו"
+      request_disallowed: "יש לך אסורים בקשה זו"
+      request_token_url: "אסימון בקשה URL"
+      revoke: בטל!
+      services: שירותים
+      show_label: הצג
+      sign_up_prompt: "כדי להמשיך נא לציין את הפרטים הבאים."
+      support_url_label: "תמיכה תכנית"
+      tokens_issued: "אסימונים הבאים ניתנו יישומים בשם שלך"
+      updated_successfully: "עודכן המידע לקוח בהצלחה"
+      we_support_hmac_sha: "אנו תומכים hmac-sha1 (מומלץ), כמו גם טקסט רגיל במצב SSL."
+      wrong_id: "יישום שגוי מזהה"
+      you_are_already_connected_to: "אתה כבר מחובר ל %{service}"
+      you_are_connected_to_the_following_services: "אתה מחובר את השירותים הבאים:"
+      you_are_currently_not_connected_to_any_external_services: "כרגע אתה לא מחובר לכל השירותים החיצוני."
+      you_can_connect_to_the_following_services: "אתה יכול להתחבר את השירותים הבאים:"
+      you_have_the_following_client_applications_registered: "יש לך את יישומי לקוח הבאים רשום:"
+      you_must_register_your_web_application: "אתה חייב לרשום את יישום האינטרנט שלך לפני שהוא יכול להפוך בקשות OAuth לשירות זה"

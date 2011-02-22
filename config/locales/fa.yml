@@ -1,0 +1,58 @@
+--- 
+fa: 
+  muck: 
+    auth: 
+      access_token_url: "آدرس دسترسی به نشانه"
+      application: برنامه
+      application_developers: "برنامه گسترشدهندگان"
+      are_you_sure: "آیا مطمئن هستید؟"
+      auth_connect_error: "خطا رخ داده است در حالی که تلاش برای اتصال به سرویس."
+      authentication_success: "تایید موفقیت آمیز بود."
+      authorize_access: "اجازه دسترسی به حساب کاربری خود شوید"
+      authorize_access_label: "اجازه دسترسی"
+      authorize_access_question: "آیا می خواهید به اجازه (%{name})%{link}} حساب کاربری خود شوید برای دسترسی به؟"
+      authorize_url: "آدرس اجازه"
+      back: برگشت
+      back_label: برگشت
+      callback_label: "آدرس پاسخ تماس *"
+      connect_to_account_title: "اتصال به حساب کاربری خود شوید %{service}"
+      consume_secret: "راز قابل فروش :"
+      delete: حذف
+      destroyed_successfully: "نابود مشتری ثبت نام نرم افزار"
+      disconnect: قطع
+      disconnect_or_reconnect: "%{disconnect}} یا %{reconnect} اگر شما تجربه یک مشکل."
+      do_you_have_an_application_to_register: "آیا نرم افزار به شما می خواهم برای استفاده از ثبت نام با ما با استفاده از استاندارد %{link}؟"
+      edit: ویرایش
+      edit_application: "ویرایش درخواست شما"
+      edit_label: ویرایش
+      http_result_error: "بود مشکل با درخواست شما وجود دارد %{error}"
+      issued: صادر
+      main_application_label: "آدرس اصلی برنامه *"
+      name_label: "نام و نام خانوادگی *"
+      or: یا
+      problem_creating_account: "بود مشکل ایجاد حساب کاربری خود شوید وجود دارد."
+      reconnect: "اتصال دوباره"
+      register: "ثبت نام"
+      register_a_new_application: "ثبت نام نرم افزار جدید"
+      register_your_application: "ثبت نام درخواست خود را"
+      registered_successfully: "اطلاعات ثبت نام با موفقیت"
+      remove_authentication_confirm: "آیا مطمئن هستید که میخواهید این گزینه خروج؟"
+      removed_authentication: "با موفقیت حذف و خروج."
+      request_allowed: "شما اجازه داده اند این درخواست"
+      request_disallowed: "شما مجاز این درخواست"
+      request_token_url: "نشانه درخواست آدرس"
+      revoke: "را لغو کنید!"
+      services: خدمات
+      show_label: نمایش
+      sign_up_prompt: "برای ادامه لطفا اطلاعات زیر کلیک کنید."
+      support_url_label: "آدرس پشتیبانی"
+      tokens_issued: "آیات زیر شده به نام شما صادر شده به یک برنامه"
+      updated_successfully: "بههنگام شده در اطلاعات مشتری موفقیت"
+      we_support_hmac_sha: "ما از hmac - sha1 (توصیه شده) و همچنین به عنوان متن ساده در حالت اس اس ال."
+      wrong_id: "نرم افزار اشتباه شناسه"
+      you_are_already_connected_to: "شما در حال حاضر به %{service} وصل"
+      you_are_connected_to_the_following_services: "شما به خدمات پس از وصل :"
+      you_are_currently_not_connected_to_any_external_services: "شما در حال حاضر به هر گونه خدمات خارجی وصل نشده است."
+      you_can_connect_to_the_following_services: "شما می توانید به خدمات زیر در تماس باشید :"
+      you_have_the_following_client_applications_registered: "شما باید برنامه های زیر ثبت نام مشتری :"
+      you_must_register_your_web_application: "شما باید برنامه تحت وب خود را قبل از آن می توانید درخواست OAuth به این سرویس را ثبت نام"

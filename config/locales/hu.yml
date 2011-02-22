@@ -1,0 +1,58 @@
+--- 
+hu: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Alkalmazás
+      application_developers: Alkalmazás-fejlesztők
+      are_you_sure: "Biztos vagy benne?"
+      auth_connect_error: "Hiba történt próbál csatlakozni a szolgáltatáshoz."
+      authentication_success: "A hitelesítés sikeres."
+      authorize_access: "Engedélyezi a hozzáférést a fiókjához"
+      authorize_access_label: "hozzáférésének engedélyezése"
+      authorize_access_question: "Szeretné, hogy engedélyezze %{name}} (%{link}) hozzáférhet a fiókjához?"
+      authorize_url: "Engedélyezi URL"
+      back: Vissza
+      back_label: Vissza
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Csatlakoztassa a %{service} számla"
+      consume_secret: "Fogyasztói Secret:"
+      delete: Törlés
+      destroyed_successfully: "Megsemmisült az ügyfél bejelentéssel"
+      disconnect: Bontása
+      disconnect_or_reconnect: "%{disconnect}} Vagy %{reconnect} ha tapasztalt problémát."
+      do_you_have_an_application_to_register: "Van egy alkalmazás szeretne regisztrálni használható nekünk a %{link} szabvány?"
+      edit: Edit
+      edit_application: "Szerkeszd a kérelmet"
+      edit_label: Edit
+      http_result_error: "Volt egy probléma a kérés %{error}"
+      issued: Kiadott
+      main_application_label: "Főbb alkalmazás URL-je *"
+      name_label: "Név *"
+      or: vagy
+      problem_creating_account: "Volt egy probléma a fiók létrehozásakor."
+      reconnect: "Csatlakoztassa újra"
+      register: Regisztráció
+      register_a_new_application: "Regisztráljon egy új alkalmazás"
+      register_your_application: "Regisztrálja alkalmazás"
+      registered_successfully: "Regisztráció az információ sikeres"
+      remove_authentication_confirm: "Biztosan el kívánja távolítani ezt a hitelesítési opció?"
+      removed_authentication: "Sikeresen eltávolították hitelesítést."
+      request_allowed: "Van megengedett ezt a kérést"
+      request_disallowed: "Ön ezt a kérést nem engedélyezett"
+      request_token_url: "Request Token URL"
+      revoke: Visszavonja!
+      services: Szolgáltatások
+      show_label: Térkép
+      sign_up_prompt: "Annak érdekében, hogy továbbra is kérjük, adja meg az alábbi adatokat."
+      support_url_label: "Támogatás URL"
+      tokens_issued: "Az alábbi tokenek adtak ki az alkalmazásokra be a nevét"
+      updated_successfully: "Frissítve: az ügyfél információk sikeresen"
+      we_support_hmac_sha: "Támogatjuk hmac-sha1 (ajánlott), valamint a sima szöveget ssl módban."
+      wrong_id: "Rossz az alkalmazás id"
+      you_are_already_connected_to: "Már Kapcsolódva %{service}"
+      you_are_connected_to_the_following_services: "Ön csatlakozik a következő szolgáltatásokat tartalmazza:"
+      you_are_currently_not_connected_to_any_external_services: "Ön jelenleg nem csatlakozik semmilyen külső szolgáltatások."
+      you_can_connect_to_the_following_services: "Tud-e csatlakozni a következő szolgáltatásokat:"
+      you_have_the_following_client_applications_registered: "Ön a következő ügyfél kérelmet regisztráltak:"
+      you_must_register_your_web_application: "Be kell regisztrálni a webes alkalmazás előtt teheti OAuth kéri ezt a szolgáltatást"

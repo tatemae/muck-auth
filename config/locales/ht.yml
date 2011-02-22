@@ -1,0 +1,58 @@
+--- 
+ht: 
+  muck: 
+    auth: 
+      access_token_url: "Aksè jton URL"
+      application: Aplikasyon
+      application_developers: "Aplikasyon Developers"
+      are_you_sure: "Èske ou asire?"
+      auth_connect_error: "Yon erè ki te fèt pandan y ap eseye konekte ak sèvis la."
+      authentication_success: "Validation siksè."
+      authorize_access: "Otorize aksè nan kont ou"
+      authorize_access_label: "otorize aksè"
+      authorize_access_question: "Ou ta renmen bay otorizasyon (%{name}) %{link}} jwenn aksè nan kont ou a?"
+      authorize_url: "Otorize URL"
+      back: Back
+      back_label: Back
+      callback_label: "Rapèl URL *"
+      connect_to_account_title: "Konekte nan kont %{service} ou"
+      consume_secret: "Konsomatè Secret:"
+      delete: Delete
+      destroyed_successfully: "Detwi enskripsyon aplikasyon an kliyan"
+      disconnect: Dekonekte
+      disconnect_or_reconnect: "%{disconnect}} %{reconnect} Oswa si w gen eksperyans yon pwoblèm."
+      do_you_have_an_application_to_register: "Èske ou gen yon aplikasyon ou ta renmen enskri pou itilize ansanm ak nou lè l sèvi avèk estanda nan %{link}?"
+      edit: Edit
+      edit_application: "Edit aplikasyon ou lan"
+      edit_label: Edit
+      http_result_error: "Te gen yon pwoblèm ak demand ou %{error}"
+      issued: Pibliye
+      main_application_label: "Main Aplikasyon URL *"
+      name_label: "Non *"
+      or: oswa
+      problem_creating_account: "Te gen yon pwoblèm kreye kont ou."
+      reconnect: Rekonekte
+      register: Enskri
+      register_a_new_application: "Enskri yon nouvo fòm aplikasyon"
+      register_your_application: "Enskri aplikasyon ou lan"
+      registered_successfully: "Ki anrejistre enfòmasyon yo avèk siksè"
+      remove_authentication_confirm: "Èske ou sèten ou vle retire opsyon sa a validation?"
+      removed_authentication: "Siksè retire validation."
+      request_allowed: "Ou gen dwa demann sa a"
+      request_disallowed: "Ou gen rjte demann sa a"
+      request_token_url: "Mande jton URL"
+      revoke: Revoke!
+      services: Sèvis
+      show_label: Montre
+      sign_up_prompt: "Yo nan lòd yo kontinye tanpri bay enfòmasyon ki anba yo."
+      support_url_label: "URL Sipò"
+      tokens_issued: "marqueur sa yo yo te bay aplikasyon nan non ou"
+      updated_successfully: "Mete ajou enfòmasyon an kliyan avèk siksè"
+      we_support_hmac_sha: "Nou sipòte mak-sha1 (rekòmande) menm jan tou plenn tèks nan mòd ssl."
+      wrong_id: "Mal aplikasyon id"
+      you_are_already_connected_to: "Ou deja konekte ak %{service}"
+      you_are_connected_to_the_following_services: "Ou ap konekte ak sèvis sa yo:"
+      you_are_currently_not_connected_to_any_external_services: "Ou se kounye a pa konekte ak nenpòt sèvis ekstèn."
+      you_can_connect_to_the_following_services: "Ou kapab konekte nan sèvis ki annapre yo:"
+      you_have_the_following_client_applications_registered: "Ou gen aplikasyon yo kliyan sa yo anrejistre:"
+      you_must_register_your_web_application: "Ou dwe enskri aplikasyon entènèt ou an anvan li ka fè OAuth demann sèvis sa a"

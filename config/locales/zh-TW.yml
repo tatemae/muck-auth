@@ -1,0 +1,58 @@
+--- 
+zh-TW: 
+  muck: 
+    auth: 
+      access_token_url: 訪問令牌網址
+      application: 應用
+      application_developers: 應用開發人員
+      are_you_sure: 你肯定嗎？
+      auth_connect_error: 錯誤發生在試圖連接到該服務。
+      authentication_success: 認證成功。
+      authorize_access: 授權訪問您的帳戶
+      authorize_access_label: 授權訪問
+      authorize_access_question: "你想授權 %{name}} (%{link})訪問您的帳戶？"
+      authorize_url: 授權網址
+      back: 返回
+      back_label: 返回
+      callback_label: "回調 URL *"
+      connect_to_account_title: "連接到您的%{service}帳戶"
+      consume_secret: 消費者的秘密：
+      delete: 刪除
+      destroyed_successfully: 毀了客戶端應用程序的註冊
+      disconnect: 斷開
+      disconnect_or_reconnect: "%{disconnect}}或%{reconnect}如果你遇到了問題。"
+      do_you_have_an_application_to_register: "你有一個應用程序，你想註冊使用與我們使用%{link}標準？"
+      edit: 編輯
+      edit_application: 編輯您的應用程序
+      edit_label: 編輯
+      http_result_error: "有一個問題，您的要求%{error}"
+      issued: 分
+      main_application_label: "主要應用網址 *"
+      name_label: 姓名*
+      or: 或
+      problem_creating_account: 有一個問題，建立帳戶。
+      reconnect: 重新連接
+      register: 註冊
+      register_a_new_application: 註冊一個新的應用程序
+      register_your_application: 註冊您的應用程序
+      registered_successfully: 註冊成功的信息
+      remove_authentication_confirm: 你確定要刪除此身份驗證選項？
+      removed_authentication: 成功刪除驗證。
+      request_allowed: 您已允許這一請求
+      request_disallowed: 不允許你有此要求
+      request_token_url: 請求令牌網址
+      revoke: 撤銷！
+      services: 服務
+      show_label: 顯示
+      sign_up_prompt: 為了繼續請提供以下信息。
+      support_url_label: 支持URL
+      tokens_issued: 下面的標記已發給你的名字申請
+      updated_successfully: 成功地更新了客戶信息
+      we_support_hmac_sha: "我們支持的HMAC - SHA1的（推薦），以及純文本在SSL模式。"
+      wrong_id: 錯誤的應用程序ID
+      you_are_already_connected_to: "你已經連接到%{service}"
+      you_are_connected_to_the_following_services: 您連接到以下服務：
+      you_are_currently_not_connected_to_any_external_services: 您目前沒有連接到任何外部的服務。
+      you_can_connect_to_the_following_services: 您可以到以下服務：
+      you_have_the_following_client_applications_registered: 您有以下客戶端應用程序登記：
+      you_must_register_your_web_application: 你必須註冊您的Web應用程序，然後它可以使這項服務請求的OAuth

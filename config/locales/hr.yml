@@ -1,0 +1,58 @@
+--- 
+hr: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Primjena
+      application_developers: "Primjena programere"
+      are_you_sure: "Jeste li sigurni?"
+      auth_connect_error: "Došlo je do pogreške tijekom pokušaja da se spojite na uslugu."
+      authentication_success: "Provjera autentičnosti uspješno."
+      authorize_access: "Dopuštenje pristup Vašem računu"
+      authorize_access_label: "odobriti pristup"
+      authorize_access_question: "Želite li autorizirati %{name}} (%{link}) pristupiti svom računu?"
+      authorize_url: "Ovlastiti URL"
+      back: Natrag
+      back_label: Natrag
+      callback_label: "Povratni poziv URL *"
+      connect_to_account_title: "Spojite na svoj račun %{service}"
+      consume_secret: "Tajni:"
+      delete: Izbrisati
+      destroyed_successfully: "Uništena registracije klijentsku aplikaciju"
+      disconnect: Isključiti
+      disconnect_or_reconnect: "%{disconnect}} Ili %{reconnect} ako ste iskusan problem."
+      do_you_have_an_application_to_register: "Imate program koji želite da se registrirate za korištenje s nama pomoću %{link} standard?"
+      edit: Uredi
+      edit_application: "Uredite svoj zahtjev"
+      edit_label: Uredi
+      http_result_error: "Došlo je do problema s vaš zahtjev %{error}"
+      issued: Izdano
+      main_application_label: "Glavna aplikacija URL *"
+      name_label: "Ime *"
+      or: ili
+      problem_creating_account: "Došlo je do problema stvaranja svog računa."
+      reconnect: Ponovno
+      register: Registar
+      register_a_new_application: "Registrirajte se novi zahtjev"
+      register_your_application: "Registrirajte svoj zahtjev"
+      registered_successfully: "Registrirani podaci uspješno"
+      remove_authentication_confirm: "Jeste li sigurni da želite ukloniti ovu opciju provjere autentičnosti?"
+      removed_authentication: "Uspješno uklonjena autentifikaciju."
+      request_allowed: "Vi ste dozvoljeno ovaj zahtjev"
+      request_disallowed: "Imate odbijena ovaj zahtjev"
+      request_token_url: "Zahtjev za token URL"
+      revoke: Opoziv!
+      services: Usluge
+      show_label: Prikaži
+      sign_up_prompt: "Da bi se nastaviti navedite informacije u nastavku."
+      support_url_label: "Podrška URL"
+      tokens_issued: "Sljedeći tokeni su izdane aplikacija u svoje ime"
+      updated_successfully: "Promjena podataka korisnika, uspješno"
+      we_support_hmac_sha: "Mi podržavamo HMAC-SHA1 (preporučeno), kao i obični tekst u SSL modu."
+      wrong_id: "Pogrešno primjene id"
+      you_are_already_connected_to: "Ste već povezani na %{service}"
+      you_are_connected_to_the_following_services: "Vi ste spojeni na slijedeće usluge:"
+      you_are_currently_not_connected_to_any_external_services: "Trenutno niste povezani na vanjske usluge."
+      you_can_connect_to_the_following_services: "Možete se spojiti na slijedeće usluge:"
+      you_have_the_following_client_applications_registered: "Imate sljedeće klijent aplikacije koje su registrirane:"
+      you_must_register_your_web_application: "Morate se registrirati vaš zahtjev web prije nego što ga može napraviti OAuth zahtjeva za ovu uslugu"

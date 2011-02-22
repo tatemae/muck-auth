@@ -1,0 +1,58 @@
+--- 
+sr: 
+  muck: 
+    auth: 
+      access_token_url: "Приступ УРЛ адреса токена"
+      application: Апликација
+      application_developers: Апликација
+      are_you_sure: "Јесте ли сигурни?"
+      auth_connect_error: "Дошло је до грешке приликом покушаја да се повежете на сервис."
+      authentication_success: "Аутентификација успешна."
+      authorize_access: "Овлашћење за приступ свом налогу"
+      authorize_access_label: "овлашћење за приступ"
+      authorize_access_question: "Желите ли да овласти %{name}} (%{link}) да приступите свом налогу?"
+      authorize_url: "Ауторизација УРЛ адреса"
+      back: Назад
+      back_label: Назад
+      callback_label: "Повратни УРЛ адреса *"
+      connect_to_account_title: "Повежите се на ваш рачун %{service}"
+      consume_secret: "Потрошача тајна:"
+      delete: Избриши
+      destroyed_successfully: "Уништене клијент пријаву за регистрацију"
+      disconnect: Искључити
+      disconnect_or_reconnect: "%{disconnect}} Или %{reconnect} ако сте наишли на неки проблем."
+      do_you_have_an_application_to_register: "Да ли имате апликацију желите да се региструјете за коришћење са нама користећи %{link} стандарда?"
+      edit: Уреди
+      edit_application: "Уредите свој захтев"
+      edit_label: Уреди
+      http_result_error: "Дошло је до проблема са својим захтевом %{error}"
+      issued: Издате
+      main_application_label: "Главне апликације УРЛ адреса *"
+      name_label: "Име и презиме *"
+      or: или
+      problem_creating_account: "Дошло је до проблема прављење налога."
+      reconnect: "Поновно повезивање"
+      register: "Региструј се"
+      register_a_new_application: "Региструјте се нови захтев"
+      register_your_application: "Региструјте свој захтев"
+      registered_successfully: "Регистровани подаци успешно"
+      remove_authentication_confirm: "Да ли сте сигурни да желите да уклоните ову опцију аутентификацију?"
+      removed_authentication: "Успешно уклоњен аутентификацију."
+      request_allowed: "Дозвољено вам је да овај захтев"
+      request_disallowed: "Имате дозвољено овај захтев"
+      request_token_url: "Захтев УРЛ адреса токена"
+      revoke: Опозови!
+      services: Услуге
+      show_label: Прикажи
+      sign_up_prompt: "Да би се наставили Молимо вас да обезбедите податке испод."
+      support_url_label: "Подршка УРЛ адреса"
+      tokens_issued: "Следећи токени су издате на апликације у ваше име"
+      updated_successfully: "Ажурирано клијент информације успешно"
+      we_support_hmac_sha: "Ми подржавамо ХМАЦ-сха1 (препоручује се), као и обичан текст у ССЛ моду."
+      wrong_id: "Погрешна примена ИД"
+      you_are_already_connected_to: "Већ сте Повезано са %{service}"
+      you_are_connected_to_the_following_services: "Повезани сте са следећим услугама:"
+      you_are_currently_not_connected_to_any_external_services: "Тренутно нисте повезани на неки спољни услуге."
+      you_can_connect_to_the_following_services: "Можете да се повежете на следеће услуге:"
+      you_have_the_following_client_applications_registered: "Имате следеће клијентске апликације регистровано:"
+      you_must_register_your_web_application: "Морате се регистровати своју веб апликацију пре него што може да ОАутх захтева за ову услугу"

@@ -1,0 +1,58 @@
+--- 
+ru: 
+  muck: 
+    auth: 
+      access_token_url: "Маркер доступа URL"
+      application: Применение
+      application_developers: "Разработчиков приложений"
+      are_you_sure: "Вы уверены?"
+      auth_connect_error: "Произошла ошибка при попытке подключиться к службе."
+      authentication_success: "Проверка подлинности успешно."
+      authorize_access: "Авторизация доступа к вашему счету"
+      authorize_access_label: "разрешить доступ"
+      authorize_access_question: "Вы хотите разрешить %{name}} (%{link}) получить доступ к вашему счету?"
+      authorize_url: "Авторизация URL"
+      back: Назад
+      back_label: Назад
+      callback_label: "Обратный адрес *"
+      connect_to_account_title: "Подключите к вашему счету %{service}"
+      consume_secret: "Потребительские секрет:"
+      delete: Удалить
+      destroyed_successfully: "Уничтожено регистрации клиентского приложения"
+      disconnect: Отключать
+      disconnect_or_reconnect: "%{disconnect}} Или %{reconnect} Если вы столкнулись с проблемой."
+      do_you_have_an_application_to_register: "У вас есть приложения вы хотели бы, чтобы зарегистрироваться для использования с нами, используя стандартные %{link}?"
+      edit: Изменить
+      edit_application: "Изменить приложение"
+      edit_label: Изменить
+      http_result_error: "Существовал проблемы с вашим запросом %{error}"
+      issued: Выпущенный
+      main_application_label: "Главная программа URL *"
+      name_label: "Имя *"
+      or: или
+      problem_creating_account: "Существовал проблемы при создании аккаунта."
+      reconnect: Снова
+      register: Регистрация
+      register_a_new_application: "Регистрация нового приложения"
+      register_your_application: "Регистрация вашего приложения"
+      registered_successfully: "Зарегистрированные информацию успешно"
+      remove_authentication_confirm: "Вы уверены, что хотите удалить эту опцию проверки подлинности?"
+      removed_authentication: "Успешно удален аутентификации."
+      request_allowed: "Вы позволили этому запросу"
+      request_disallowed: "Вы запрещены данного запроса"
+      request_token_url: "Запрос Token URL"
+      revoke: Отменить!
+      services: Услуги
+      show_label: Показать
+      sign_up_prompt: "Для того, чтобы продолжать просьба представить информацию ниже."
+      support_url_label: "Поддержка URL"
+      tokens_issued: "Следующие маркеры были выданы приложения на ваше имя"
+      updated_successfully: "Обновлено информацию о клиенте успешно"
+      we_support_hmac_sha: "Мы поддерживаем HMAC-SHA1 (рекомендуется), а в виде обычного текста в режиме SSL."
+      wrong_id: "Неправильное применение ID"
+      you_are_already_connected_to: "Вы уже подключены к %{service}"
+      you_are_connected_to_the_following_services: "Вы подключены к следующим услугам:"
+      you_are_currently_not_connected_to_any_external_services: "В данный момент вы не подключены к любым внешним услуг."
+      you_can_connect_to_the_following_services: "Вы можете подключиться к следующим услугам:"
+      you_have_the_following_client_applications_registered: "У вас есть следующие приложения клиент, зарегистрированный:"
+      you_must_register_your_web_application: "Вы должны зарегистрировать веб-приложение, прежде чем он может сделать OAuth запросов на эту услугу"

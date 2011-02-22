@@ -1,0 +1,58 @@
+--- 
+el: 
+  muck: 
+    auth: 
+      access_token_url: "Δείτε το Κουπόνι URL"
+      application: Εφαρμογή
+      application_developers: "Οι προγραμματιστές εφαρμογών"
+      are_you_sure: "Είσαι σίγουρος;"
+      auth_connect_error: "Ένα σφάλμα κατά την προσπάθεια να συνδεθεί με την υπηρεσία."
+      authentication_success: "Authentication επιτυχία."
+      authorize_access: "Επιτρέψει την πρόσβαση στο λογαριασμό σας"
+      authorize_access_label: "επιτρέψει την πρόσβαση"
+      authorize_access_question: "Θα θέλατε να επιτρέψει %{name}} (%{link}) πρόσβαση στο λογαριασμό σας;"
+      authorize_url: "Εξουσιοδότηση URL"
+      back: Επιστροφή
+      back_label: Επιστροφή
+      callback_label: "Επανάκλησης URL *"
+      connect_to_account_title: "Συνδεθείτε με το λογαριασμό σας %{service}"
+      consume_secret: "Καταναλωτών Secret:"
+      delete: Διαγραφή
+      destroyed_successfully: "Καταστράφηκε η καταχώριση εφαρμογή πελάτη"
+      disconnect: Αποσύνδεση
+      disconnect_or_reconnect: "%{disconnect}} Ή %{reconnect} αν Παρουσιάστηκε ένα πρόβλημα."
+      do_you_have_an_application_to_register: "Έχετε μια εφαρμογή που θα θέλατε να εγγραφείτε για χρήση μαζί μας χρησιμοποιώντας το πρότυπο %{link};"
+      edit: Επεξεργασία
+      edit_application: "Επεξεργασία αίτησή σας"
+      edit_label: Επεξεργασία
+      http_result_error: "Υπήρξε ένα πρόβλημα με το αίτημά σας %{error}"
+      issued: Εκδοθέν
+      main_application_label: "Κύρια URL Εφαρμογή *"
+      name_label: "Όνομα *"
+      or: ή
+      problem_creating_account: "Υπήρξε ένα πρόβλημα κατά τη δημιουργία του λογαριασμού σας."
+      reconnect: Επανασύνδεση
+      register: Εγγραφή
+      register_a_new_application: "Εγγραφή νέα αίτηση"
+      register_your_application: "Εγγραφή αίτησή σας"
+      registered_successfully: "Εγγεγραμμένοι τις πληροφορίες με επιτυχία"
+      remove_authentication_confirm: "Είστε σίγουροι ότι θέλετε να καταργήσετε αυτή την επιλογή ταυτότητας;"
+      removed_authentication: "Αφαιρεθεί επιτυχώς ταυτότητας."
+      request_allowed: "Έχετε τη δυνατότητα αυτή την αίτηση"
+      request_disallowed: "Έχετε να αρθεί αυτό το αίτημα"
+      request_token_url: "Αίτηση Token URL"
+      revoke: Ανάκληση!
+      services: Υπηρεσίες
+      show_label: Εμφάνιση
+      sign_up_prompt: "Για να συνεχιστεί δώστε τις παρακάτω πληροφορίες."
+      support_url_label: "URL Υποστήριξη"
+      tokens_issued: "Οι ακόλουθες μάρκες που έχουν εκδοθεί για τις αιτήσεις στο όνομά σας"
+      updated_successfully: "Ενημέρωση των πληροφοριών πελάτη με επιτυχία"
+      we_support_hmac_sha: "Υποστηρίζουμε HMAC-sha1 (συνιστάται), καθώς και απλό κείμενο σε SSL mode."
+      wrong_id: "Λάθος εφαρμογή id"
+      you_are_already_connected_to: "Είστε ήδη συνδεθεί με %{service}"
+      you_are_connected_to_the_following_services: "Έχετε συνδεθεί με τις ακόλουθες υπηρεσίες:"
+      you_are_currently_not_connected_to_any_external_services: "Αυτή τη στιγμή δεν συνδέεται με οποιοδήποτε εξωτερικές υπηρεσίες."
+      you_can_connect_to_the_following_services: "Μπορείτε να συνδέσετε τις ακόλουθες υπηρεσίες:"
+      you_have_the_following_client_applications_registered: "Έχετε τις ακόλουθες εφαρμογές client για καταχώριση:"
+      you_must_register_your_web_application: "Πρέπει να κάνετε εγγραφή web εφαρμογή σας, πριν να μπορεί να OAuth αιτήσεις σε αυτήν την υπηρεσία"

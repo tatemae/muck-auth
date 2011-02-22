@@ -1,0 +1,58 @@
+--- 
+hi: 
+  muck: 
+    auth: 
+      access_token_url: "पहुँच टोकन यूआरएल"
+      application: आवेदन
+      application_developers: "आवेदन डेवलपर्स"
+      are_you_sure: "तुम्हें यकीन है?"
+      auth_connect_error: "एक त्रुटि सेवा से कनेक्ट करने की कोशिश करते हुए हो गई."
+      authentication_success: "सफल प्रमाणीकरण."
+      authorize_access: "अधिकृत आपके खाते तक पहुँच"
+      authorize_access_label: "पहुँच प्राधिकृत"
+      authorize_access_question: "क्या आप %{name}} (%{link}) अधिकृत करने के लिए अपने खाते का उपयोग करना चाहते हैं?"
+      authorize_url: "अधिकृत यूआरएल"
+      back: वापस
+      back_label: वापस
+      callback_label: "Callback यूआरएल *"
+      connect_to_account_title: "आपके खाते से कनेक्ट %{service}"
+      consume_secret: "उपभोक्ता रहस्य:"
+      delete: हटाएँ
+      destroyed_successfully: "क्लाइंट अनुप्रयोग पंजीकरण तबाह"
+      disconnect: काटना
+      disconnect_or_reconnect: "%{disconnect}} या %{reconnect} यदि आप एक समस्या का अनुभव किया."
+      do_you_have_an_application_to_register: "क्या आप एक आवेदन तुम हमें %{link} मानक का उपयोग कर के साथ प्रयोग के लिए रजिस्टर करना चाहते हैं?"
+      edit: "संपादित करें"
+      edit_application: "आपके आवेदन को संपादित करें"
+      edit_label: "संपादित करें"
+      http_result_error: "वहाँ अपने अनुरोध के साथ एक समस्या थी %{error}"
+      issued: जारी
+      main_application_label: "मुख्य आवेदन यूआरएल *"
+      name_label: "नाम *"
+      or: या
+      problem_creating_account: "वहाँ एक अपना खाता बनाने में समस्या थी."
+      reconnect: Reconnect
+      register: रजिस्टर
+      register_a_new_application: "एक नया आवेदन पंजीकरण"
+      register_your_application: "आपके आवेदन पंजीकरण"
+      registered_successfully: "सफलतापूर्वक सूचना पंजीकृत"
+      remove_authentication_confirm: "क्या आप वाकई इस प्रमाणीकरण विकल्प को दूर करना चाहते हैं?"
+      removed_authentication: "सफलतापूर्वक प्रमाणीकरण हटा दिया."
+      request_allowed: "आप इस अनुरोध की अनुमति दी है"
+      request_disallowed: "आप इस अनुरोध को अस्वीकार"
+      request_token_url: "अनुरोध करें"
+      revoke: रद्द!
+      services: सेवाएँ
+      show_label: दिखाएँ
+      sign_up_prompt: "आदेश में जारी रखने के लिए नीचे दी गई जानकारी प्रदान करें."
+      support_url_label: "समर्थन यूआरएल"
+      tokens_issued: "निम्नलिखित टोकन अपने नाम में किया गया है अनुप्रयोगों के लिए जारी"
+      updated_successfully: "ग्राहक सफलतापूर्वक सूचना अद्यतन"
+      we_support_hmac_sha: "हम hmac (अनुशंसित) sha1 साथ ही ssl मोड में सादे पाठ का समर्थन करते हैं."
+      wrong_id: "गलत आवेदन आईडी"
+      you_are_already_connected_to: "आप पहले से ही %{service} से कनेक्ट कर रहे हैं"
+      you_are_connected_to_the_following_services: "आप निम्नलिखित सेवाओं से जुड़े रहे हैं:"
+      you_are_currently_not_connected_to_any_external_services: "आप वर्तमान में किसी भी बाहरी सेवाओं से जुड़े नहीं हैं."
+      you_can_connect_to_the_following_services: "आप निम्नलिखित सेवाओं से कनेक्ट कर सकते हैं:"
+      you_have_the_following_client_applications_registered: "आप निम्नलिखित क्लाइंट अनुप्रयोग पंजीकृत:"
+      you_must_register_your_web_application: "आप अपने वेब अनुप्रयोग रजिस्टर करने से पहले यह OAuth अनुरोधों इस सेवा के लिए कर सकते हैं चाहिए"

@@ -1,0 +1,58 @@
+--- 
+tl: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Application
+      application_developers: "Application Developers"
+      are_you_sure: "Sigurado ka ba?"
+      auth_connect_error: "May naganap na error habang sinusubukan upang kumonekta sa serbisyo."
+      authentication_success: "Authentication matagumpay."
+      authorize_access: "Pahintulutan ang access sa iyong account"
+      authorize_access_label: "Pinahihintulutan access"
+      authorize_access_question: "Gusto mo bang pahintulutan %{name}} (%{link})-access ang iyong account?"
+      authorize_url: "Pahintulutan URL"
+      back: Likod
+      back_label: Likod
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Kumonekta sa iyong %{service} account"
+      consume_secret: "Consumer Secret:"
+      delete: Alisin
+      destroyed_successfully: "Nawasak ang client registration application"
+      disconnect: Magkalag
+      disconnect_or_reconnect: "%{disconnect}} O %{reconnect} kung kayo nakaranas ng problema."
+      do_you_have_an_application_to_register: "Mayroon ka ng isang aplikasyon na nais mong magrehistro para sa gumamit sa amin gamit ang %{link} standard?"
+      edit: I-edit
+      edit_application: "I-edit ang iyong aplikasyon"
+      edit_label: I-edit
+      http_result_error: "May problema sa iyong hiling %{error}"
+      issued: Inisyu
+      main_application_label: "Main Application URL *"
+      name_label: "Pangalan *"
+      or: o
+      problem_creating_account: "May problema sa paglikha ng iyong account."
+      reconnect: "Makipagkonek muli"
+      register: Magparehistro
+      register_a_new_application: "Magrehistro ng isang bagong aplikasyon"
+      register_your_application: "Magrehistro ang inyong aplikasyon"
+      registered_successfully: "Rehistradong mga impormasyon matagumpay"
+      remove_authentication_confirm: "Sigurado ka bang gusto mong alisin ang opsyon na authentication?"
+      removed_authentication: "Matagumpay na naalis ang authentication."
+      request_allowed: "Ikaw ay pinahihintulutan ang hiling na ito"
+      request_disallowed: "Ikaw ay hindi pinayagan ang hiling na ito"
+      request_token_url: "Request Token URL"
+      revoke: Bawiin!
+      services: "Mga Serbisyo"
+      show_label: Ipakita
+      sign_up_prompt: "Upang magpatuloy mangyaring ibigay ang impormasyon sa ibaba."
+      support_url_label: "Support URL"
+      tokens_issued: "Ang mga sumusunod na mga token ay inisyu sa mga aplikasyon sa iyong pangalan"
+      updated_successfully: "Nai-update ang client impormasyon matagumpay"
+      we_support_hmac_sha: "Sinusuportahan namin hmac-sha1 (inirerekomenda) pati na rin ang plain text sa ssl mode."
+      wrong_id: "Maling id application"
+      you_are_already_connected_to: "Ikaw ay Konektado sa %{service}"
+      you_are_connected_to_the_following_services: "Ikaw ay konektado sa mga sumusunod na serbisyo:"
+      you_are_currently_not_connected_to_any_external_services: "Ikaw ay kasalukuyang hindi konektado sa anumang mga panlabas na mga serbisyo."
+      you_can_connect_to_the_following_services: "Maaari mong ikonekta sa mga sumusunod na serbisyo:"
+      you_have_the_following_client_applications_registered: "Ikaw ay may mga sumusunod na client aplikasyon rehistradong:"
+      you_must_register_your_web_application: "Kailangan mong magrehistro sa iyong mga web application bago ito gumawa ng mga hiling OAuth sa serbisyong ito"

@@ -1,0 +1,58 @@
+--- 
+lt: 
+  muck: 
+    auth: 
+      access_token_url: "Prisijunkite ženklas URL"
+      application: Taikymas
+      application_developers: "Application Developers"
+      are_you_sure: "Ar tikrai?"
+      auth_connect_error: "Įvyko klaida bandant prisijungti prie paslaugos serverio."
+      authentication_success: "Autentifikavimo sėkmingas."
+      authorize_access: "Leisti prieigą prie savo sąskaitos"
+      authorize_access_label: "leisti naudotis"
+      authorize_access_question: "Ar norėtumėte leisti %{name}} (%{link}) prieigą prie jūsų sąskaitos?"
+      authorize_url: "Įgalioti URL"
+      back: Atgal
+      back_label: Atgal
+      callback_label: "Grįžtamasis URL *"
+      connect_to_account_title: "Prisijunkite prie savo %{service} sąskaita"
+      consume_secret: "Vartotojų paslaptis:"
+      delete: Ištrinti
+      destroyed_successfully: "Sunaikinta kliento prašymo įregistravimo"
+      disconnect: Atjungti
+      disconnect_or_reconnect: "%{disconnect}} Arba %{reconnect} jei jums kilo problema."
+      do_you_have_an_application_to_register: "Ar turite programą, kurią norėtume užregistruoti naudoti su mumis naudodami %{link} standartas?"
+      edit: Redaguoti
+      edit_application: "Redaguoti paraiškos"
+      edit_label: Redaguoti
+      http_result_error: "Ten buvo su savo prašymu problema %{error}"
+      issued: Išduodami
+      main_application_label: "Pagrindinis taikymas URL *"
+      name_label: "Vardas *"
+      or: arba
+      problem_creating_account: "Įvyko klaida kuriant jūsų sąskaitą."
+      reconnect: Pakartotinis
+      register: Registruotis
+      register_a_new_application: "Registruotis naujos paraiškos"
+      register_your_application: "Užregistruokite savo paraišką"
+      registered_successfully: "Registruoti informacija sėkmingai"
+      remove_authentication_confirm: "Ar tikrai norite pašalinti šį autentifikavimo galimybė?"
+      removed_authentication: "Sėkmingai pašalintas autentiškumo."
+      request_allowed: "Jūs turite leisti šį prašymą"
+      request_disallowed: "Jūs turite neleidžiamus šį prašymą"
+      request_token_url: "Prašymas ženklas URL"
+      revoke: Atšaukti!
+      services: Paslaugos
+      show_label: Rodyti
+      sign_up_prompt: "Siekiant toliau pateikite informacijos žemiau."
+      support_url_label: "Pagalba URL"
+      tokens_issued: "Taip žetonų buvo išduoti programas į jūsų pavadinimas"
+      updated_successfully: "Atnaujinta kliento informacija sėkmingai"
+      we_support_hmac_sha: "Mes palaikome hmac-sha1 (rekomenduojama), taip pat kaip paprastas tekstas SSL režimu."
+      wrong_id: "Neteisingas naudojimas numeris"
+      you_are_already_connected_to: "Jūs jau prijungtas prie %{service}"
+      you_are_connected_to_the_following_services: "Jūs esate susijęs su šiomis paslaugomis:"
+      you_are_currently_not_connected_to_any_external_services: "Šiuo metu jūs nesate prisijungę prie išorės tarnybas."
+      you_can_connect_to_the_following_services: "Galite prisijungti prie šių paslaugų:"
+      you_have_the_following_client_applications_registered: "Jūs taip kliento programos registruota:"
+      you_must_register_your_web_application: "Jūs turite užregistruoti savo interneto paraišką, kol ji gali padaryti &quot;OAuth&quot; prašo šią paslaugą"

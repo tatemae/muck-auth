@@ -1,0 +1,58 @@
+--- 
+ro: 
+  muck: 
+    auth: 
+      access_token_url: "Acces Token URL"
+      application: Cerere
+      application_developers: "Cerere Dezvoltatori"
+      are_you_sure: "Esti sigur?"
+      auth_connect_error: "A apărut o eroare în timp ce încearcă să se conecteze la serviciu."
+      authentication_success: "Autentificare cu succes."
+      authorize_access: "Autorizaţie de acces la contul dvs."
+      authorize_access_label: "autoriza accesul"
+      authorize_access_question: "Doriţi să autorizeze (%{name}) %{link}} pentru a accesa contul dvs.?"
+      authorize_url: "Autorizaţi URL"
+      back: Înapoi
+      back_label: Înapoi
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Conecta la contul dvs. %{service}"
+      consume_secret: "Secret de consum:"
+      delete: Şterge
+      destroyed_successfully: "A distrus înregistrării cererii client"
+      disconnect: Deconecta
+      disconnect_or_reconnect: "%{disconnect}} %{reconnect} Sau dacă aţi întâmpinat o problemă."
+      do_you_have_an_application_to_register: "Nu aveţi o aplicaţie pe care doriţi să se înregistreze pentru a fi utilizate cu noi folosind standard %{link}?"
+      edit: Editare
+      edit_application: "Editaţi cererea dvs."
+      edit_label: Editare
+      http_result_error: "Nu a fost o problemă cu cererea dumneavoastră %{error}"
+      issued: Eliberat
+      main_application_label: "URL-ul principal de aplicare *"
+      name_label: "Nume *"
+      or: sau
+      problem_creating_account: "Nu a fost o problemă la crearea contului."
+      reconnect: Reconectaţi
+      register: Registru
+      register_a_new_application: "Înregistra o nouă cerere"
+      register_your_application: "Înregistra cererea dvs."
+      registered_successfully: "Înregistrate informaţii cu succes"
+      remove_authentication_confirm: "Sunteţi sigur că doriţi să înlăturaţi această opţiune de autentificare?"
+      removed_authentication: "eliminat cu succes de autentificare."
+      request_allowed: "Aţi permis această cerere"
+      request_disallowed: "Ai nepermis această cerere"
+      request_token_url: "Cerere Token URL"
+      revoke: Revocaţi!
+      services: Servicii
+      show_label: Arată
+      sign_up_prompt: "În scopul de a continua vă rugăm să furnizaţi informaţiile de mai jos."
+      support_url_label: "URL-ul de sprijin"
+      tokens_issued: "Jetoanele au fost emise la aplicaţii în numele dvs."
+      updated_successfully: "Actualizat cu succes informaţiile client"
+      we_support_hmac_sha: "Noi sprijinim HMAC-sha1 (recomandat), precum şi ca text simplu în modul ssl."
+      wrong_id: "aplicarea greşită id"
+      you_are_already_connected_to: "Sunteţi deja conectat la %{service}"
+      you_are_connected_to_the_following_services: "Sunteţi conectat la următoarele servicii:"
+      you_are_currently_not_connected_to_any_external_services: "Tu nu sunt în prezent conectate la orice servicii externe."
+      you_can_connect_to_the_following_services: "Vă puteţi conecta la următoarele servicii:"
+      you_have_the_following_client_applications_registered: "Aveţi următoarele aplicaţii client înregistrat:"
+      you_must_register_your_web_application: "Trebuie să vă înregistraţi cererea dumneavoastră web înainte de a putea face cereri de OAuth la acest serviciu"

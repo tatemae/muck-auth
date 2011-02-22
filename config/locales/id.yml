@@ -1,0 +1,58 @@
+--- 
+id: 
+  muck: 
+    auth: 
+      access_token_url: "Akses Token URL"
+      application: Aplikasi
+      application_developers: "Aplikasi Pengembang"
+      are_you_sure: "Apakah Anda yakin?"
+      auth_connect_error: "Terjadi kesalahan ketika mencoba untuk menyambung ke layanan tersebut."
+      authentication_success: "Otentikasi berhasil."
+      authorize_access: "Otorisasi akses ke account Anda"
+      authorize_access_label: "mengotorisasi akses"
+      authorize_access_question: "Apakah Anda ingin kuasa (%{name}) %{link}} untuk mengakses account Anda?"
+      authorize_url: "Otorisasi URL"
+      back: Kembali
+      back_label: Kembali
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Tersambung ke account %{service} Anda"
+      consume_secret: "Konsumen Rahasia:"
+      delete: Hapus
+      destroyed_successfully: "Hancur pendaftaran aplikasi klien"
+      disconnect: Memutuskan
+      disconnect_or_reconnect: "%{disconnect}} Atau %{reconnect} jika Anda mengalami masalah."
+      do_you_have_an_application_to_register: "Apakah Anda memiliki aplikasi Anda ingin mendaftar untuk digunakan dengan kami menggunakan standar %{link}?"
+      edit: Edit
+      edit_application: "Edit aplikasi Anda"
+      edit_label: Edit
+      http_result_error: "Ada masalah dengan permintaan Anda %{error}"
+      issued: Ditempatkan
+      main_application_label: "Aplikasi Utama URL *"
+      name_label: "Nama *"
+      or: atau
+      problem_creating_account: "Ada masalah saat membuat account Anda."
+      reconnect: "Menyambung kembali"
+      register: Daftar
+      register_a_new_application: "Daftarkan aplikasi baru"
+      register_your_application: "Daftar aplikasi Anda"
+      registered_successfully: "Terdaftar informasi yang berhasil"
+      remove_authentication_confirm: "Apakah Anda yakin ingin hapus opsi ini otentikasi?"
+      removed_authentication: "Otentikasi berhasil dihapus."
+      request_allowed: "Anda telah mengizinkan permintaan ini"
+      request_disallowed: "Anda telah diijinkan permintaan ini"
+      request_token_url: "Permintaan Token URL"
+      revoke: Batalkan!
+      services: Layanan
+      show_label: Tampilkan
+      sign_up_prompt: "Untuk melanjutkan silakan berikan informasi di bawah ini."
+      support_url_label: "Dukungan URL"
+      tokens_issued: "The token berikut telah diterbitkan ke aplikasi dalam nama Anda"
+      updated_successfully: "Diperbarui informasi klien berhasil"
+      we_support_hmac_sha: "Kami mendukung HMAC-sha1 (dianjurkan) dan juga sebagai teks biasa dalam modus ssl."
+      wrong_id: "Salah aplikasi id"
+      you_are_already_connected_to: "Anda sudah Tersambung ke %{service}"
+      you_are_connected_to_the_following_services: "Anda tersambung ke layanan berikut:"
+      you_are_currently_not_connected_to_any_external_services: "Anda sedang tidak terhubung ke layanan eksternal."
+      you_can_connect_to_the_following_services: "Anda dapat terhubung ke layanan berikut:"
+      you_have_the_following_client_applications_registered: "Anda memiliki aplikasi klien berikut terdaftar:"
+      you_must_register_your_web_application: "Anda harus mendaftarkan aplikasi web Anda sebelum dapat membuat permintaan OAuth untuk layanan ini"

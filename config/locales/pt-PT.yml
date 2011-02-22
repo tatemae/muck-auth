@@ -1,0 +1,58 @@
+--- 
+pt-PT: 
+  muck: 
+    auth: 
+      access_token_url: "Acesso à URL Token"
+      application: Aplicação
+      application_developers: "Desenvolvedores de aplicativos"
+      are_you_sure: "Você tem certeza?"
+      auth_connect_error: "Ocorreu um erro ao tentar conectar ao serviço."
+      authentication_success: "Autenticação bem-sucedida."
+      authorize_access: "Autorizar o acesso a sua conta"
+      authorize_access_label: "autorizar o acesso"
+      authorize_access_question: "Gostaria de autorizar (%{name}) %{link}} para acessar sua conta?"
+      authorize_url: "URL Autorizar"
+      back: Voltar
+      back_label: Voltar
+      callback_label: "URL de retorno *"
+      connect_to_account_title: "Aceda à sua conta %{service}"
+      consume_secret: "Segredo do Consumidor:"
+      delete: Excluir
+      destroyed_successfully: "Destruído o registro do aplicativo cliente"
+      disconnect: Desconectar
+      disconnect_or_reconnect: "%{disconnect}} %{reconnect} Ou se você teve um problema."
+      do_you_have_an_application_to_register: "Você tem um aplicativo que você gostaria de registrar para uso com a gente usando o padrão %{link}?"
+      edit: Editar
+      edit_application: "Edite seu pedido"
+      edit_label: Editar
+      http_result_error: "Houve um problema com o seu pedido %{error}"
+      issued: Emitido
+      main_application_label: "URL principal do aplicativo *"
+      name_label: "Nome *"
+      or: ou
+      problem_creating_account: "Houve um problema ao criar sua conta."
+      reconnect: Reconecte
+      register: Registre-se
+      register_a_new_application: "Registre um novo aplicativo"
+      register_your_application: "Registre a sua aplicação"
+      registered_successfully: "Registrado as informações com êxito"
+      remove_authentication_confirm: "Tem certeza que deseja remover essa opção de autenticação?"
+      removed_authentication: "Removido com sucesso a autenticação."
+      request_allowed: "Você tem permitido este pedido"
+      request_disallowed: "Você tem recusado o pedido"
+      request_token_url: "URL Pedido Token"
+      revoke: Revogar!
+      services: Serviços
+      show_label: Show
+      sign_up_prompt: "Para continuar a fornecer as informações abaixo."
+      support_url_label: "URL de suporte"
+      tokens_issued: "Os seguintes símbolos foram emitidos para aplicações em seu nome"
+      updated_successfully: "Atualizado às informações do cliente com sucesso"
+      we_support_hmac_sha: "Apoiamos HMAC-SHA1 (recomendado), bem como texto simples no modo SSL."
+      wrong_id: "aplicação errada id"
+      you_are_already_connected_to: "Você já está conectado a %{service}"
+      you_are_connected_to_the_following_services: "Você está conectado com os seguintes serviços:"
+      you_are_currently_not_connected_to_any_external_services: "Você não está conectado a todos os serviços externos."
+      you_can_connect_to_the_following_services: "Você pode ligar para os seguintes serviços:"
+      you_have_the_following_client_applications_registered: "Você tem os aplicativos cliente registrados:"
+      you_must_register_your_web_application: "Você deve registrar seu aplicativo da Web antes que ele possa fazer solicitações OAuth a este serviço"

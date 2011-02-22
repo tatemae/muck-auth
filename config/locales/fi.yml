@@ -1,0 +1,58 @@
+--- 
+fi: 
+  muck: 
+    auth: 
+      access_token_url: "Access Token URL"
+      application: Soveltaminen
+      application_developers: "Sovellusten kehittäjille"
+      are_you_sure: "Oletko varma?"
+      auth_connect_error: "Virhe yhteyden palveluun."
+      authentication_success: "Authentication onnistunut."
+      authorize_access: "Valtuuta tilisi"
+      authorize_access_label: "sallia pääsy"
+      authorize_access_question: "Haluatko antaa %{name}} (%{link}) käyttämään tiliäsi?"
+      authorize_url: "Valtuuta URL"
+      back: Takaisin
+      back_label: Takaisin
+      callback_label: "Takaisinsoittotyyppi URL *"
+      connect_to_account_title: "Liitä %{service} tili"
+      consume_secret: "Kuluttaja Secret:"
+      delete: Poista
+      destroyed_successfully: "Tuhoutuneet asiakasohjelma rekisteröinti"
+      disconnect: Katkaista
+      disconnect_or_reconnect: "%{disconnect}} Tai %{reconnect} jos olet kokenut ongelmia."
+      do_you_have_an_application_to_register: "Onko sinulla sovelluksen haluat rekisteröityä käyttää ja käyttävät %{link} standardi?"
+      edit: Muokkaa
+      edit_application: "Muokkaa sovelluksen"
+      edit_label: Muokkaa
+      http_result_error: "Oli ongelma pyyntösi %{error}"
+      issued: Myönnetty
+      main_application_label: "Pääsovellusalue URL *"
+      name_label: "Nimi *"
+      or: tai
+      problem_creating_account: "Ongelma tilin luomisen."
+      reconnect: Liitä
+      register: Rekisteröidy
+      register_a_new_application: "Rekisteröi uusi hakemus"
+      register_your_application: "Rekisteröi hakemuksesi"
+      registered_successfully: "Rekisteröidyt tiedot onnistuneesti"
+      remove_authentication_confirm: "Oletko varma että haluat poistaa tämän todennuksen vaihtoehto?"
+      removed_authentication: "Poistettiin onnistuneesti todennus."
+      request_allowed: "Olet sallinut tämän pyynnön"
+      request_disallowed: "Olet jätti tämän pyynnön"
+      request_token_url: "Pyydä URL-osoite"
+      revoke: Peruuta!
+      services: Palvelut
+      show_label: Näytä
+      sign_up_prompt: "Jotta voit jatkaa Antakaa tiedot alla."
+      support_url_label: "Tuki URL"
+      tokens_issued: "Seuraavat rahakkeilla on myönnetty hakemusten nimesi"
+      updated_successfully: "Päivitetty asiakkaan tiedot onnistuneesti"
+      we_support_hmac_sha: "Tuemme hmac-sha1 (suositus) samoin kuin tavallinen teksti ssl-tilassa."
+      wrong_id: "Väärä soveltaminen id"
+      you_are_already_connected_to: "Olet jo liitetty %{service}"
+      you_are_connected_to_the_following_services: "Olet yhteydessä seuraavat palvelut:"
+      you_are_currently_not_connected_to_any_external_services: "Et ole tällä hetkellä liitetty mitään ulkopuolisia palveluja."
+      you_can_connect_to_the_following_services: "Voit liittää seuraavat palvelut:"
+      you_have_the_following_client_applications_registered: "Sinulla on seuraavat asiakkaan sovelluksiin rekisteröity:"
+      you_must_register_your_web_application: "Sinun tulee rekisteröidä web-sovellus, ennen kuin se voi tehdä OAuth pyytää tämän palvelun"

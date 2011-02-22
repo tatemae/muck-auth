@@ -1,0 +1,58 @@
+--- 
+th: 
+  muck: 
+    auth: 
+      access_token_url: "URL Access Token"
+      application: ใบสมัคร
+      application_developers: พัฒนาโปรแกรมประยุกต์
+      are_you_sure: คุณแน่ใจหรือไม่?
+      auth_connect_error: ข้อผิดพลาดขณะพยายามที่จะเชื่อมต่อกับบริการ
+      authentication_success: การตรวจสอบสิทธิ์ที่ประสบความสำเร็จ
+      authorize_access: ให้สิทธิ์การเข้าถึงบัญชีของคุณ
+      authorize_access_label: การอนุมัติการเข้าถึง
+      authorize_access_question: "คุณต้องการที่จะอนุมัติ (%{name}) %{link}} เพื่อเข้าถึงบัญชีของคุณ"
+      authorize_url: "URL สิทธิ์"
+      back: กลับ
+      back_label: กลับ
+      callback_label: "URL Callback *"
+      connect_to_account_title: "เชื่อมต่อไปยังบัญชีของคุณ %{service}"
+      consume_secret: ความลับของผู้บริโภค
+      delete: ลบ
+      destroyed_successfully: ทำลายการลงทะเบียนโปรแกรมประยุกต์ของไคลเอ็นต์
+      disconnect: ปลด
+      disconnect_or_reconnect: "%{disconnect} %{reconnect}} หรือหากคุณประสบปัญหา"
+      do_you_have_an_application_to_register: "คุณมีโปรแกรมที่คุณต้องการจะลงทะเบียนเพื่อใช้กับเราโดยใช้มาตรฐาน %{link}?"
+      edit: Edit
+      edit_application: แก้ไขใบสมัครของคุณ
+      edit_label: Edit
+      http_result_error: "เกิดปัญหากับคำขอของคุณถูก %{error}"
+      issued: ที่ออก
+      main_application_label: "URL การประยุกต์ใช้หลัก *"
+      name_label: "* ชื่อ"
+      or: หรือ
+      problem_creating_account: เกิดปัญหาในการสร้างบัญชีของคุณได้
+      reconnect: เชื่อมต่อ
+      register: สมัครสมาชิก
+      register_a_new_application: สมัครสมาชิกใบสมัครใหม่
+      register_your_application: สมัครใบสมัครของคุณ
+      registered_successfully: ข้อมูลที่ลงทะเบียนเรียบร้อยแล้ว
+      remove_authentication_confirm: คุณแน่ใจหรือว่าต้องการลบตัวเลือกรับรองความถูกต้องหรือไม่
+      removed_authentication: ออกตรวจสอบเรียบร้อยแล้ว
+      request_allowed: คุณต้องได้รับอนุญาตคำขอนี้
+      request_disallowed: ท่านยังไม่ได้รับอนุญาตคำขอนี้
+      request_token_url: "URL Token ขอ"
+      revoke: ยกเลิก!
+      services: การบริการ
+      show_label: แสดง
+      sign_up_prompt: เพื่อที่จะดำเนินการต่อกรุณาระบุข้อมูลด้านล่าง
+      support_url_label: "URL การสนับสนุน"
+      tokens_issued: โทเคนต่อไปนี้มีการออกไปใช้งานในชื่อของคุณ
+      updated_successfully: อัปเดตข้อมูลของลูกค้าประสบความสำเร็จ
+      we_support_hmac_sha: "เราสนับสนุน hmac - sha1 (แนะนำ) รวมทั้งเป็นข้อความล้วนในโหมด SSL"
+      wrong_id: "สมัคร ID ไม่ถูกต้อง"
+      you_are_already_connected_to: "คุณกำลังเชื่อมต่ออยู่แล้ว %{service}"
+      you_are_connected_to_the_following_services: คุณกำลังเชื่อมต่อไปยังบริการดังต่อไปนี้
+      you_are_currently_not_connected_to_any_external_services: "ขณะนี้คุณยังไม่เชื่อมต่อกับบริการใด ๆ ภายนอก"
+      you_can_connect_to_the_following_services: คุณสามารถเชื่อมต่อกับบริการดังต่อไปนี้
+      you_have_the_following_client_applications_registered: คุณมีดังต่อไปนี้การใช้งานของลูกค้าที่ลงทะเบียน
+      you_must_register_your_web_application: "ท่านต้องลงทะเบียนโปรแกรมประยุกต์บนเว็บของคุณก่อนที่จะสามารถขอ OAuth ใช้บริการนี้"

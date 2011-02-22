@@ -1,0 +1,58 @@
+--- 
+nl: 
+  muck: 
+    auth: 
+      access_token_url: "Toegangstoken URL"
+      application: Toepassing
+      application_developers: Applicatie-ontwikkelaars
+      are_you_sure: "Ben je zeker?"
+      auth_connect_error: "Een fout is opgetreden tijdens een poging om verbinding te maken van de dienst."
+      authentication_success: "Authenticatie is geslaagd."
+      authorize_access: "Verleent hem toegang tot uw account"
+      authorize_access_label: "staan toegang tot de"
+      authorize_access_question: "Wilt u %{name}} (%{link}) toestemming toegang tot uw account?"
+      authorize_url: "URL toestaan"
+      back: Terug
+      back_label: Terug
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Verbinding maken met uw account %{service}"
+      consume_secret: "De consument Secret:"
+      delete: Verwijderen
+      destroyed_successfully: "Vernietigde de client-applicatie registratie"
+      disconnect: Loskoppelen
+      disconnect_or_reconnect: "%{disconnect}} Of %{reconnect} als je een probleem ervaren."
+      do_you_have_an_application_to_register: "Heeft u een toepassing die u wilt voor het gebruik bij ons te registreren met behulp van de %{link} standaard?"
+      edit: Bewerken
+      edit_application: "Bewerk uw aanvraag"
+      edit_label: Bewerken
+      http_result_error: "Er was een probleem met uw verzoek %{error}"
+      issued: Afgegeven
+      main_application_label: "Belangrijkste toepassing URL *"
+      name_label: "Naam *"
+      or: of
+      problem_creating_account: "Er was een probleem maken van uw account."
+      reconnect: Sluit
+      register: Registreren
+      register_a_new_application: "Registreer een nieuwe aanvraag"
+      register_your_application: "Registreer uw aanvraag"
+      registered_successfully: "De geregistreerde gegevens succesvol"
+      remove_authentication_confirm: "Ben je zeker dat je dit wilt authenticatie optie verwijderen?"
+      removed_authentication: "Succesvol verwijderd authenticatie."
+      request_allowed: "Je hebt toegestaan dit verzoek"
+      request_disallowed: "Je hebt niet toegestaan dit verzoek"
+      request_token_url: "Verzoek Token URL"
+      revoke: Trekken!
+      services: Diensten
+      show_label: Show
+      sign_up_prompt: "Om te kunnen blijven dan de hieronder gevraagde informatie."
+      support_url_label: "URL voor ondersteuning"
+      tokens_issued: "De volgende tokens zijn afgegeven aan toepassingen in uw naam"
+      updated_successfully: "Bijwerken van de cliënt informatie succes"
+      we_support_hmac_sha: "Wij ondersteunen hmac-sha1 (aanbevolen) en als platte tekst in SSL mode."
+      wrong_id: "Verkeerde toepassing id"
+      you_are_already_connected_to: "U bent reeds aangesloten op %{service}"
+      you_are_connected_to_the_following_services: "U bent verbonden met de volgende diensten:"
+      you_are_currently_not_connected_to_any_external_services: "U bent momenteel niet verbonden met een externe diensten."
+      you_can_connect_to_the_following_services: "U kunt verbinding maken met de volgende diensten:"
+      you_have_the_following_client_applications_registered: "U hebt de volgende client applicaties geregistreerd:"
+      you_must_register_your_web_application: "U moet uw webapplicatie voordat het kan OAuth verzoeken te doen op deze dienst"

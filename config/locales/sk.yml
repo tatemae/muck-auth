@@ -1,0 +1,58 @@
+--- 
+sk: 
+  muck: 
+    auth: 
+      access_token_url: "Prístup Token URL"
+      application: Aplikácia
+      application_developers: "Vývojári aplikácií"
+      are_you_sure: "Ste si istí?"
+      auth_connect_error: "Došlo k chybe pri pokuse o pripojenie k službe."
+      authentication_success: "Autentizácie úspešná."
+      authorize_access: "Povoliť prístup k vášmu účtu"
+      authorize_access_label: "povoliť prístup"
+      authorize_access_question: "Chceli by ste povoliť %{name}} (%{link}) prístup k Vášmu účtu?"
+      authorize_url: "Autorizovať URL"
+      back: Späť
+      back_label: Späť
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Pripojte sa k svojmu účtu %{service}"
+      consume_secret: "Spotrebiteľské Tajné:"
+      delete: Odstrániť
+      destroyed_successfully: "Zničený klientskej aplikácie zápisnice"
+      disconnect: Odpojiť
+      disconnect_or_reconnect: "%{disconnect}} Alebo %{reconnect} ak ste skúsený problém."
+      do_you_have_an_application_to_register: "Máte aplikáciu, ktorú chcete zaregistrovať pre použitie s nami pomocou štandardných %{link}?"
+      edit: Upraviť
+      edit_application: "Upravte svoje aplikácie"
+      edit_label: Upraviť
+      http_result_error: "Tam bol problém s vašou požiadavkou %{error}"
+      issued: Vydaných
+      main_application_label: "Hlavné aplikácií URL *"
+      name_label: "Meno *"
+      or: alebo
+      problem_creating_account: "Tam bol problém vytvorenie účtu."
+      reconnect: "Znovu pripojiť"
+      register: Registrovať
+      register_a_new_application: "Zaregistrovať nové aplikácie"
+      register_your_application: "Zaregistrujte svoj aplikácie"
+      registered_successfully: "Registrovaní informácie úspešne"
+      remove_authentication_confirm: "Ste si istí, že chcete odstrániť túto možnosť overovania?"
+      removed_authentication: "Autentizácia úspešne odstránený."
+      request_allowed: "Máte možnosť túto žiadosť"
+      request_disallowed: "Ste túto žiadosť zamietol"
+      request_token_url: "Žiadosť Token URL"
+      revoke: Odvolať!
+      services: Služby
+      show_label: Zobraziť
+      sign_up_prompt: "Aby bolo možné pokračovať, uveďte informácie nižšie."
+      support_url_label: "Podpora URL"
+      tokens_issued: "Nasledujúce žetóny boli vydané k aplikáciám v tvojom mene"
+      updated_successfully: "Aktualizované informácie o klientoch úspešne"
+      we_support_hmac_sha: "Podporujeme HMAC-SHA1 (odporúča sa), rovnako ako obyčajný text v režime SSL."
+      wrong_id: "Nesprávne aplikácie id"
+      you_are_already_connected_to: "Už ste pripojení k %{service}"
+      you_are_connected_to_the_following_services: "Ste pripojení na nasledujúce služby:"
+      you_are_currently_not_connected_to_any_external_services: "Momentálne nie ste pripojení na žiadne externé služby."
+      you_can_connect_to_the_following_services: "Môžete sa pripojiť k nasledujúce služby:"
+      you_have_the_following_client_applications_registered: "Máte nasledujúce klientskej aplikácie registrovaných:"
+      you_must_register_your_web_application: "Musíte sa registrovať webové aplikácie pred tým, ako môže OAuth žiadostí o túto službu"
