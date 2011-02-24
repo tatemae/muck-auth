@@ -3,6 +3,7 @@ ru:
   muck: 
     auth: 
       access_token_url: "Маркер доступа URL"
+      add_another_service: "Добавить еще один сервис для входа в систему:"
       application: Применение
       application_developers: "Разработчиков приложений"
       are_you_sure: "Вы уверены?"
@@ -44,6 +45,7 @@ ru:
       revoke: Отменить!
       services: Услуги
       show_label: Показать
+      sign_in_via_service: "Зарегистрируйтесь через одну из этих услуг:"
       sign_up_prompt: "Для того, чтобы продолжать просьба представить информацию ниже."
       support_url_label: "Поддержка URL"
       tokens_issued: "Следующие маркеры были выданы приложения на ваше имя"

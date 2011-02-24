@@ -3,6 +3,7 @@ ar:
   muck: 
     auth: 
       access_token_url: "عنوان رمز الوصول"
+      add_another_service: "إضافة إلى خدمة أخرى في قم بما يلي :"
       application: التطبيق
       application_developers: "مطوري التطبيقات"
       are_you_sure: "هل أنت متأكد؟"
@@ -44,6 +45,7 @@ ar:
       revoke: إلغاء!
       services: الخدمات
       show_label: عرض
+      sign_in_via_service: "تسجيل الدخول من خلال واحدة من هذه الخدمات :"
       sign_up_prompt: "من أجل مواصلة يرجى تقديم المعلومات أدناه."
       support_url_label: "دعم رابط"
       tokens_issued: "وقد صدرت الرموز التالية للتطبيقات في اسمك"

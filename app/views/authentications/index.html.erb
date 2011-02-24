@@ -1,8 +1,8 @@
 <h1><%=translate('muck.auth.services') %></h1>
-<% if @authentications %>
-  <%= render 'authentications/current_services', :authentications => @current_authentications %>
-  <p><strong>Add another service to sign in with:</strong></p>
+<% if @current_authentications %>
+  <%= render 'authentications/current_services', :authentications => @current_authentications, :include_icons => true %>
+  <p><%=translate('muck.auth.add_another_service') %></p>
 <% else %>
-  <p><strong>Sign in through one of these services:</strong></p>
+  <p><%=translate('muck.auth.sign_in_via_service') %></p>
 <% end %>
 <%= render 'authentications/available_services', :authentications => @unused_authentications, :include_icons => true %>

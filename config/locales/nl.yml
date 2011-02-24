@@ -3,10 +3,11 @@ nl:
   muck: 
     auth: 
       access_token_url: "Toegangstoken URL"
+      add_another_service: "Voeg een andere dienst aan te melden met:"
       application: Toepassing
       application_developers: Applicatie-ontwikkelaars
       are_you_sure: "Ben je zeker?"
-      auth_connect_error: "Een fout is opgetreden tijdens een poging om verbinding te maken van de dienst."
+      auth_connect_error: "Er is een fout opgetreden tijdens het verbinding probeert te maken met de dienst."
       authentication_success: "Authenticatie is geslaagd."
       authorize_access: "Verleent hem toegang tot uw account"
       authorize_access_label: "staan toegang tot de"
@@ -26,7 +27,7 @@ nl:
       edit_application: "Bewerk uw aanvraag"
       edit_label: Bewerken
       http_result_error: "Er was een probleem met uw verzoek %{error}"
-      issued: Afgegeven
+      issued: Uitgegeven
       main_application_label: "Belangrijkste toepassing URL *"
       name_label: "Naam *"
       or: of
@@ -35,7 +36,7 @@ nl:
       register: Registreren
       register_a_new_application: "Registreer een nieuwe aanvraag"
       register_your_application: "Registreer uw aanvraag"
-      registered_successfully: "De geregistreerde gegevens succesvol"
+      registered_successfully: "Geregistreerd de informatie succesvol"
       remove_authentication_confirm: "Ben je zeker dat je dit wilt authenticatie optie verwijderen?"
       removed_authentication: "Succesvol verwijderd authenticatie."
       request_allowed: "Je hebt toegestaan dit verzoek"
@@ -44,6 +45,7 @@ nl:
       revoke: Trekken!
       services: Diensten
       show_label: Show
+      sign_in_via_service: "Aanmelden via een van deze diensten:"
       sign_up_prompt: "Om te kunnen blijven dan de hieronder gevraagde informatie."
       support_url_label: "URL voor ondersteuning"
       tokens_issued: "De volgende tokens zijn afgegeven aan toepassingen in uw naam"

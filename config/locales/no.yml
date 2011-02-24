@@ -4,6 +4,7 @@
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Legg en annen tjeneste for å logge inn med:"
       application: Søknad
       application_developers: "Søknad Utviklere"
       are_you_sure: "Er du sikker?"
@@ -45,6 +46,7 @@
       revoke: Opphev!
       services: Tjenester
       show_label: Vis
+      sign_in_via_service: "Logge på via en av disse tjenestene:"
       sign_up_prompt: "For å fortsette må du oppgi informasjonen nedenfor."
       support_url_label: "Støtte URL"
       tokens_issued: "Følgende symboler er utstedt til applikasjoner i ditt navn"

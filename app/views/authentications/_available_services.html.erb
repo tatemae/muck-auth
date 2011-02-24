@@ -1,8 +1,7 @@
 <div id="auth_available_services" class="auth-services">
   <% unless Secrets.auth_credentials.empty? %>
-    <h3><%=translate('muck.auth.you_can_connect_to_the_following_services') %></h3>
     <ul <%='class="icon-list"'.html_safe if include_icons%>>
-      <%= auth_list(include_icons) %>
+      <%= auth_list(include_icons, @current_authentications) %>
     </ul>
   <% end %>
 </div>

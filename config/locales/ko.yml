@@ -3,6 +3,7 @@ ko:
   muck: 
     auth: 
       access_token_url: "액세스 토큰 URL"
+      add_another_service: "으로 로그인하는 다른 서비스를 추가합니다 :"
       application: "응용 프로그램"
       application_developers: "응용 프로그램 개발자"
       are_you_sure: "당신은 확실한가요?"
@@ -44,6 +45,7 @@ ko:
       revoke: 취소!
       services: 서비스
       show_label: 보기
+      sign_in_via_service: "이러한 서비스 중 하나를 통해 로그인 :"
       sign_up_prompt: "위해서 아래의 정보를 입력해주십시오 계속합니다."
       support_url_label: "지원 URL을"
       tokens_issued: "다음의 토큰의 이름으로 응용 프로그램에 발행되었습니다"

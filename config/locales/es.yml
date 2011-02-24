@@ -3,6 +3,7 @@ es:
   muck: 
     auth: 
       access_token_url: "Token de acceso URL"
+      add_another_service: "Agregar a otro servicio para acceder a:"
       application: Aplicación
       application_developers: "Desarrolladores de Aplicaciones"
       are_you_sure: "¿Estás seguro?"
@@ -44,6 +45,7 @@ es:
       revoke: Revocar!
       services: Servicios
       show_label: Mostrar
+      sign_in_via_service: "Entra a través de uno de estos servicios:"
       sign_up_prompt: "A fin de continuar por favor complete el siguiente."
       support_url_label: "Apoyo URL"
       tokens_issued: "Las fichas siguientes se han emitido a las aplicaciones en su nombre"

@@ -3,6 +3,7 @@ sv:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Lägg till ytterligare en tjänst för att logga in med:"
       application: Ansökan
       application_developers: Applikationsutvecklare
       are_you_sure: "Är du säker?"
@@ -35,20 +36,21 @@ sv:
       register: Registrera
       register_a_new_application: "Registrera en ny ansökan"
       register_your_application: "Registrera din ansökan"
-      registered_successfully: "Registrerad den information framgångsrikt"
-      remove_authentication_confirm: "Är du säker att du vill ta bort denna autentisering alternativ?"
+      registered_successfully: "Registrerade uppgifter framgångsrikt"
+      remove_authentication_confirm: "Är du säker på att du vill ta bort denna autentisering alternativ?"
       removed_authentication: "Tagits bort autentisering."
       request_allowed: "Du har gjort denna begäran"
-      request_disallowed: "Du har underkänt denna begäran"
+      request_disallowed: "Ni har underkänt denna begäran"
       request_token_url: "Begär Token URL"
       revoke: Återkalla!
       services: Tjänster
       show_label: Visa
+      sign_in_via_service: "Logga in genom ett av dessa tjänster:"
       sign_up_prompt: "För att fortsätta ge följande information nedan."
       support_url_label: "Support URL"
       tokens_issued: "Följande variabler har utfärdats till program i ditt namn"
       updated_successfully: "Uppdaterade kundinformation framgångsrikt"
-      we_support_hmac_sha: "Vi stöder HMAC-SHA1 (rekommenderas) samt oformaterad text i SSL-läge."
+      we_support_hmac_sha: "Vi stödjer HMAC-SHA1 (rekommenderas) samt oformaterad text i SSL-läge."
       wrong_id: "Fel program-ID"
       you_are_already_connected_to: "Du är redan ansluten till %{service}"
       you_are_connected_to_the_following_services: "Du är ansluten till följande tjänster:"

@@ -3,6 +3,7 @@ sq:
   muck: 
     auth: 
       access_token_url: "URL Access Token"
+      add_another_service: "Shtoni një tjetër shërbim të nënshkruajë në me:"
       application: Zbatim
       application_developers: "Application Developers"
       are_you_sure: "A jeni i sigurt?"
@@ -44,6 +45,7 @@ sq:
       revoke: Revokojë!
       services: Shërbimet
       show_label: Tregojnë
+      sign_in_via_service: "Sign in përmes një nga këto shërbime:"
       sign_up_prompt: "Në mënyrë që të vazhdojë lutem siguroni informacionet më poshtë."
       support_url_label: "URL Support"
       tokens_issued: "Argumentet e mëposhtme janë lëshuar për të aplikimeve në emrin tuaj"

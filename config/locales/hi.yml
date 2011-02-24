@@ -3,6 +3,7 @@ hi:
   muck: 
     auth: 
       access_token_url: "पहुँच टोकन यूआरएल"
+      add_another_service: "दूसरे के साथ साइन इन सर्विस जोड़ें:"
       application: आवेदन
       application_developers: "आवेदन डेवलपर्स"
       are_you_sure: "तुम्हें यकीन है?"
@@ -44,6 +45,7 @@ hi:
       revoke: रद्द!
       services: सेवाएँ
       show_label: दिखाएँ
+      sign_in_via_service: "एक इन सेवाओं के माध्यम से साइन इन करें:"
       sign_up_prompt: "आदेश में जारी रखने के लिए नीचे दी गई जानकारी प्रदान करें."
       support_url_label: "समर्थन यूआरएल"
       tokens_issued: "निम्नलिखित टोकन अपने नाम में किया गया है अनुप्रयोगों के लिए जारी"

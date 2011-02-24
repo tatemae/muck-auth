@@ -3,6 +3,7 @@ fi:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Lisää toinen palvelu on kirjauduttava sisään:"
       application: Soveltaminen
       application_developers: "Sovellusten kehittäjille"
       are_you_sure: "Oletko varma?"
@@ -44,6 +45,7 @@ fi:
       revoke: Peruuta!
       services: Palvelut
       show_label: Näytä
+      sign_in_via_service: "Kirjaudu sisään johonkin näistä palveluista:"
       sign_up_prompt: "Jotta voit jatkaa Antakaa tiedot alla."
       support_url_label: "Tuki URL"
       tokens_issued: "Seuraavat rahakkeilla on myönnetty hakemusten nimesi"

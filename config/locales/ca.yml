@@ -3,6 +3,7 @@ ca:
   muck: 
     auth: 
       access_token_url: "Token d&#39;accés URL"
+      add_another_service: "Afegeix a un altre servei per accedir a:"
       application: Aplicació
       application_developers: "Desenvolupadors d&#39;Aplicacions"
       are_you_sure: "Estàs segur?"
@@ -44,6 +45,7 @@ ca:
       revoke: Revocar!
       services: Serveis
       show_label: Mostra
+      sign_in_via_service: "Entra a través d&#39;un d&#39;aquests serveis:"
       sign_up_prompt: "Per tal de continuar si us plau completi el següent."
       support_url_label: "Suport URL"
       tokens_issued: "Les fitxes següents s&#39;han emès a les aplicacions en el seu nom"

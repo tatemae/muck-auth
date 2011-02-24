@@ -3,6 +3,7 @@ hr:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Dodaj još jedan servis za prijavu u sa:"
       application: Primjena
       application_developers: "Primjena programere"
       are_you_sure: "Jeste li sigurni?"
@@ -44,6 +45,7 @@ hr:
       revoke: Opoziv!
       services: Usluge
       show_label: Prikaži
+      sign_in_via_service: "Prijavite se kroz jedan od tih usluga:"
       sign_up_prompt: "Da bi se nastaviti navedite informacije u nastavku."
       support_url_label: "Podrška URL"
       tokens_issued: "Sljedeći tokeni su izdane aplikacija u svoje ime"

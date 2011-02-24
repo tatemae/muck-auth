@@ -3,6 +3,7 @@ mt:
   muck: 
     auth: 
       access_token_url: "Aċċess URL Token"
+      add_another_service: "Żid servizz ieħor li jiffirma ma &#39;:"
       application: Applikazzjoni
       application_developers: "Application Developers"
       are_you_sure: "Are you sure?"
@@ -44,6 +45,7 @@ mt:
       revoke: Tirrevoka!
       services: Servizzi
       show_label: Uri
+      sign_in_via_service: "Sinjal permezz ta &#39;wieħed minn dawn is-servizzi:"
       sign_up_prompt: "Sabiex ikompli jekk jogħġbok ipprovdi l-informazzjoni hawn taħt."
       support_url_label: "URL Appoġġ"
       tokens_issued: "Il-tokens li ġejjin ġew maħruġa għall-applikazzjonijiet fl-isem tiegħek"

@@ -3,6 +3,7 @@ bg:
   muck: 
     auth: 
       access_token_url: "Кода за достъп URL"
+      add_another_service: "Добавяне на друга услуга да влезете с:"
       application: Прилагане
       application_developers: "Разработчиците на приложения"
       are_you_sure: "Сигурни ли сте?"
@@ -44,6 +45,7 @@ bg:
       revoke: Прекратяване!
       services: Услуги
       show_label: Покажи
+      sign_in_via_service: "Вход през една от тези услуги:"
       sign_up_prompt: "За да продължи моля представете информацията по-долу."
       support_url_label: "Подкрепа URL"
       tokens_issued: "Следните символи са издадени на приложения във вашето име"

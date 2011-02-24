@@ -1,0 +1,2 @@
+jQuery('#<%=@authentication.dom_id%>').remove();
+jQuery('#auth_available_services').replaceWith('<%= escape_javascript(render('authentications/available_services', :authentications => @unused_authentications, :include_icons => true)) %>');

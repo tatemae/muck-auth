@@ -3,6 +3,7 @@ id:
   muck: 
     auth: 
       access_token_url: "Akses Token URL"
+      add_another_service: "Tambahkan layanan lain untuk sign in dengan:"
       application: Aplikasi
       application_developers: "Aplikasi Pengembang"
       are_you_sure: "Apakah Anda yakin?"
@@ -44,6 +45,7 @@ id:
       revoke: Batalkan!
       services: Layanan
       show_label: Tampilkan
+      sign_in_via_service: "Sign in melalui salah satu layanan ini:"
       sign_up_prompt: "Untuk melanjutkan silakan berikan informasi di bawah ini."
       support_url_label: "Dukungan URL"
       tokens_issued: "The token berikut telah diterbitkan ke aplikasi dalam nama Anda"

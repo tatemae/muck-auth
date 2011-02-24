@@ -3,6 +3,7 @@ vi:
   muck: 
     auth: 
       access_token_url: "Mã truy cập URL"
+      add_another_service: "Thêm một dịch vụ để đăng nhập vào với:"
       application: "Ứng dụng"
       application_developers: "Các nhà phát triển ứng dụng"
       are_you_sure: "Bạn có chắc chắn?"
@@ -44,6 +45,7 @@ vi:
       revoke: "Thu hồi!"
       services: "Dịch vụ"
       show_label: Show
+      sign_in_via_service: "Đăng nhập thông qua một trong những dịch vụ này:"
       sign_up_prompt: "Để tiếp tục xin vui lòng cung cấp thông tin dưới đây."
       support_url_label: "Hỗ trợ URL"
       tokens_issued: "Các thẻ sau đây đã được phát hành cho các ứng dụng trong tên của bạn"

@@ -3,6 +3,7 @@ de:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Fügen Sie einen weiteren Dienst in mit Vorzeichen:"
       application: Anwendung
       application_developers: Anwendungsentwickler
       are_you_sure: "Sind Sie sicher?"
@@ -18,14 +19,14 @@ de:
       connect_to_account_title: "Verbinden Sie Ihr Konto %{service}"
       consume_secret: "Consumer Secret:"
       delete: Löschen
-      destroyed_successfully: "Zerstört die Client-Anwendung Registrierung"
+      destroyed_successfully: "Zerstört die Client-Applikation Anmeldung"
       disconnect: Trennen
       disconnect_or_reconnect: "%{disconnect}} Oder %{reconnect} wenn Sie erfahren ein Problem."
       do_you_have_an_application_to_register: "Haben Sie eine Anwendung, die Sie gerne für den Einsatz mit uns über das %{link} Standard Register würde?"
       edit: Bearbeiten
       edit_application: "Bearbeiten Sie Ihre Anwendung"
       edit_label: Bearbeiten
-      http_result_error: "Es gab ein Problem mit Ihrer Anfrage %{error}"
+      http_result_error: "Es gab ein Problem mit Ihrem Antrag %{error}"
       issued: Ausgestellt
       main_application_label: "Hauptanwendung URL *"
       name_label: "Name *"
@@ -44,6 +45,7 @@ de:
       revoke: Widerrufen!
       services: Dienstleistungen
       show_label: Show
+      sign_in_via_service: "Melden Sie sich über einen dieser Dienste:"
       sign_up_prompt: "Um auch in Zukunft geben Sie bitte die unten stehenden Informationen."
       support_url_label: "Support URL"
       tokens_issued: "Die folgenden Token müssen Anwendungen auf Ihren Namen ausgestellt"
@@ -51,7 +53,7 @@ de:
       we_support_hmac_sha: "Wir unterstützen HMAC-SHA1 (empfohlen) als auch als Nur-Text im SSL-Modus."
       wrong_id: "Falsche Anwendung id"
       you_are_already_connected_to: "Sie sind bereits auf %{service} Connected"
-      you_are_connected_to_the_following_services: "Sie befinden sich auf folgende Leistungen verbunden:"
+      you_are_connected_to_the_following_services: "Sie sind für folgende Leistungen verbunden:"
       you_are_currently_not_connected_to_any_external_services: "Sie sind derzeit nicht auf externe Dienste angeschlossen."
       you_can_connect_to_the_following_services: "Sie können die folgenden Dienste in Verbindung zu treten:"
       you_have_the_following_client_applications_registered: "Sie haben folgende Client-Anwendungen registriert:"

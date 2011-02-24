@@ -3,6 +3,7 @@ da:
   muck: 
     auth: 
       access_token_url: "Adgang Token URL"
+      add_another_service: "Tilføj en anden tjeneste at logge ind med:"
       application: Ansøgning
       application_developers: Applikationsudviklere
       are_you_sure: "Er du sikker?"
@@ -44,6 +45,7 @@ da:
       revoke: Tilbagekald!
       services: Tjenester
       show_label: Vis
+      sign_in_via_service: "Logge ind fra en af disse tjenester:"
       sign_up_prompt: "For at fortsætte skal du angive nedenstående oplysninger."
       support_url_label: "Support URL"
       tokens_issued: "Følgende symboler er udstedt for ansøgninger i dit navn"

@@ -3,6 +3,7 @@ lv:
   muck: 
     auth: 
       access_token_url: "Piekļuves pilnvara URL"
+      add_another_service: "Pievienot citu pakalpojumu, lai pierakstītos ar:"
       application: Pieteikumu
       application_developers: "Lietojumprogrammu izstrādātājiem"
       are_you_sure: "Vai esat pārliecināts?"
@@ -44,6 +45,7 @@ lv:
       revoke: Atsaukt!
       services: Pakalpojumi
       show_label: Rādīt
+      sign_in_via_service: "Pierakstieties, izmantojot vienu no šiem pakalpojumiem:"
       sign_up_prompt: "Lai turpinātu, lūdzu, sniedziet informāciju."
       support_url_label: "Atbalsta URL"
       tokens_issued: "Šādus žetonus ir izsniegtas uz pieteikumiem, kas savu vārdu"

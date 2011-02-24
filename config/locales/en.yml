@@ -25,6 +25,7 @@ en:
       name_label: Name*
       request_allowed: You have allowed this request
       authorize_access_question: Would you like to authorize %{name}} (%{link}) to access your account?
+      sign_in_via_service: "Sign in through one of these services:"
       you_are_already_connected_to: You are already Connected to %{service}
       request_token_url: Request Token URL
       application: Application
@@ -36,6 +37,7 @@ en:
       authorize_access_label: authorize access
       registered_successfully: Registered the information successfully
       wrong_id: Wrong application id
+      add_another_service: "Add another service to sign in with:"
       you_are_connected_to_the_following_services: "You are connected to the following services:"
       authorize_url: Authorize URL
       access_token_url: Access Token URL

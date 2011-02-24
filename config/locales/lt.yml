@@ -3,6 +3,7 @@ lt:
   muck: 
     auth: 
       access_token_url: "Prisijunkite ženklas URL"
+      add_another_service: "Pridėti dar vieną paslaugą prisijungti:"
       application: Taikymas
       application_developers: "Application Developers"
       are_you_sure: "Ar tikrai?"
@@ -44,6 +45,7 @@ lt:
       revoke: Atšaukti!
       services: Paslaugos
       show_label: Rodyti
+      sign_in_via_service: "Prisijungti, naudojant vieną iš šių paslaugų:"
       sign_up_prompt: "Siekiant toliau pateikite informacijos žemiau."
       support_url_label: "Pagalba URL"
       tokens_issued: "Taip žetonų buvo išduoti programas į jūsų pavadinimas"

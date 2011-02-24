@@ -3,6 +3,7 @@ sr:
   muck: 
     auth: 
       access_token_url: "Приступ УРЛ адреса токена"
+      add_another_service: "Додајте још један сервис да се пријавите са:"
       application: Апликација
       application_developers: Апликација
       are_you_sure: "Јесте ли сигурни?"
@@ -44,6 +45,7 @@ sr:
       revoke: Опозови!
       services: Услуге
       show_label: Прикажи
+      sign_in_via_service: "Пријавите се преко једног од тих услуга:"
       sign_up_prompt: "Да би се наставили Молимо вас да обезбедите податке испод."
       support_url_label: "Подршка УРЛ адреса"
       tokens_issued: "Следећи токени су издате на апликације у ваше име"

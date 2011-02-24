@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-auth}
-  s.version = "3.2.3"
+  s.version = "3.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2011-02-17}
+  s.date = %q{2011-02-21}
   s.description = %q{A simple wrapper for the omniauth gem so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -29,7 +29,51 @@ Gem::Specification.new do |s|
     "app/views/authentications/failure.html.erb",
     "app/views/authentications/index.html.erb",
     "app/views/authentications/signup.html.erb",
+    "config/locales/ar.yml",
+    "config/locales/bg.yml",
+    "config/locales/ca.yml",
+    "config/locales/cs.yml",
+    "config/locales/da.yml",
+    "config/locales/de.yml",
+    "config/locales/el.yml",
     "config/locales/en.yml",
+    "config/locales/es.yml",
+    "config/locales/et.yml",
+    "config/locales/fa.yml",
+    "config/locales/fi.yml",
+    "config/locales/fr.yml",
+    "config/locales/gl.yml",
+    "config/locales/hi.yml",
+    "config/locales/hr.yml",
+    "config/locales/ht.yml",
+    "config/locales/hu.yml",
+    "config/locales/id.yml",
+    "config/locales/it.yml",
+    "config/locales/iw.yml",
+    "config/locales/ja.yml",
+    "config/locales/ko.yml",
+    "config/locales/lt.yml",
+    "config/locales/lv.yml",
+    "config/locales/mt.yml",
+    "config/locales/nl.yml",
+    "config/locales/no.yml",
+    "config/locales/pl.yml",
+    "config/locales/pt-PT.yml",
+    "config/locales/ro.yml",
+    "config/locales/ru.yml",
+    "config/locales/sk.yml",
+    "config/locales/sl.yml",
+    "config/locales/sq.yml",
+    "config/locales/sr.yml",
+    "config/locales/sv.yml",
+    "config/locales/th.yml",
+    "config/locales/tl.yml",
+    "config/locales/tr.yml",
+    "config/locales/uk.yml",
+    "config/locales/vi.yml",
+    "config/locales/zh-CN.yml",
+    "config/locales/zh-TW.yml",
+    "config/locales/zh.yml",
     "config/routes.rb",
     "db/migrate/20110216045051_create_authentications.rb",
     "lib/muck-auth.rb",
@@ -44,11 +88,10 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/tatemae/muck-auth}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.5.2}
   s.summary = %q{OAuth for muck}
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then

@@ -3,6 +3,7 @@ iw:
   muck: 
     auth: 
       access_token_url: "אסימון הגישה URL"
+      add_another_service: "הוסף עוד שירות להיכנס עם:"
       application: יישום
       application_developers: "יישום מפתחים"
       are_you_sure: "האם אתה בטוח?"
@@ -44,6 +45,7 @@ iw:
       revoke: בטל!
       services: שירותים
       show_label: הצג
+      sign_in_via_service: "הירשם דרך אחד השירותים האלה:"
       sign_up_prompt: "כדי להמשיך נא לציין את הפרטים הבאים."
       support_url_label: "תמיכה תכנית"
       tokens_issued: "אסימונים הבאים ניתנו יישומים בשם שלך"

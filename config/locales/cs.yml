@@ -3,6 +3,7 @@ cs:
   muck: 
     auth: 
       access_token_url: "Přístup Token URL"
+      add_another_service: "Přidat další služby přihlaste se:"
       application: Aplikace
       application_developers: "Vývojáři aplikací"
       are_you_sure: "Jste si jisti?"
@@ -44,6 +45,7 @@ cs:
       revoke: Odvolat!
       services: Služby
       show_label: Zobrazit
+      sign_in_via_service: "Přihlaste se přes jeden z těchto služeb:"
       sign_up_prompt: "Aby bylo možné pokračovat, uveďte informace níže."
       support_url_label: "Podpora URL"
       tokens_issued: "Následující žetony byly vydány k aplikacím ve tvém jménu"

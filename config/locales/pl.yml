@@ -3,6 +3,7 @@ pl:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Dodaj kolejny serwis do zalogowania się z:"
       application: Zastosowanie
       application_developers: Programistów
       are_you_sure: "Czy na pewno?"
@@ -44,6 +45,7 @@ pl:
       revoke: Odwołaj!
       services: Usługi
       show_label: Pokaż
+      sign_in_via_service: "Zaloguj się za pomocą jednej z tych usług:"
       sign_up_prompt: "W celu kontynuacji należy podać poniższe informacje."
       support_url_label: "Adres URL pomocy"
       tokens_issued: "Następujące żetony zostały wydane do wniosków w nazwie"

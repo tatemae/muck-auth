@@ -3,6 +3,7 @@ uk:
   muck: 
     auth: 
       access_token_url: "Маркер доступу URL"
+      add_another_service: "Додати ще один сервіс для входу в систему:"
       application: Застосування
       application_developers: "Розробників додатків"
       are_you_sure: "Ви впевнені?"
@@ -44,6 +45,7 @@ uk:
       revoke: Скасувати!
       services: Послуги
       show_label: Показати
+      sign_in_via_service: "Увійдіть через одну з цих послуг:"
       sign_up_prompt: "Для того, щоб продовжувати прохання представити інформацію нижче."
       support_url_label: "Підтримка URL"
       tokens_issued: "Наступні маркери були видані програми на ваше ім&#39;я"

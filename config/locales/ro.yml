@@ -3,6 +3,7 @@ ro:
   muck: 
     auth: 
       access_token_url: "Acces Token URL"
+      add_another_service: "Adauga un alt serviciu pentru a semna în cu:"
       application: Cerere
       application_developers: "Cerere Dezvoltatori"
       are_you_sure: "Esti sigur?"
@@ -44,6 +45,7 @@ ro:
       revoke: Revocaţi!
       services: Servicii
       show_label: Arată
+      sign_in_via_service: "Înscrie-te în printr-una din aceste servicii:"
       sign_up_prompt: "În scopul de a continua vă rugăm să furnizaţi informaţiile de mai jos."
       support_url_label: "URL-ul de sprijin"
       tokens_issued: "Jetoanele au fost emise la aplicaţii în numele dvs."

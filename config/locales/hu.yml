@@ -3,6 +3,7 @@ hu:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Újabb szolgáltatás jelentkezzen:"
       application: Alkalmazás
       application_developers: Alkalmazás-fejlesztők
       are_you_sure: "Biztos vagy benne?"
@@ -44,6 +45,7 @@ hu:
       revoke: Visszavonja!
       services: Szolgáltatások
       show_label: Térkép
+      sign_in_via_service: "Jelentkezzen be, az egyik ilyen szolgáltatás:"
       sign_up_prompt: "Annak érdekében, hogy továbbra is kérjük, adja meg az alábbi adatokat."
       support_url_label: "Támogatás URL"
       tokens_issued: "Az alábbi tokenek adtak ki az alkalmazásokra be a nevét"

@@ -3,10 +3,11 @@ tr:
   muck: 
     auth: 
       access_token_url: "Erişim Token URL"
+      add_another_service: "ile giriş yapmak için başka bir servis ekleyin:"
       application: Uygulama
       application_developers: "Uygulama Geliştiriciler"
       are_you_sure: "Emin misiniz?"
-      auth_connect_error: "Bir hata servisine bağlanmak için çalışırken oluştu."
+      auth_connect_error: "Bir hata servise bağlanmak için çalışırken oluştu."
       authentication_success: "Kimlik doğrulama başarılı."
       authorize_access: "Hesabınıza erişim yetkilendirme"
       authorize_access_label: "erişim yetkisi"
@@ -15,7 +16,7 @@ tr:
       back: Geri
       back_label: Geri
       callback_label: "Callback URL *"
-      connect_to_account_title: "senin %{service} hesap bağlanın"
+      connect_to_account_title: "senin %{service} hesabınıza bağlayın"
       consume_secret: "Tüketici Secret:"
       delete: Silmek
       destroyed_successfully: "istemci uygulaması kayıt Destroyed"
@@ -44,13 +45,14 @@ tr:
       revoke: Iptal!
       services: Hizmetleri
       show_label: Göstermek
+      sign_in_via_service: "Bu hizmetlerden biri ile açın:"
       sign_up_prompt: "amacıyla aşağıdaki bilgileri lütfen devam edin."
       support_url_label: "Destek URL"
       tokens_issued: "Aşağıdaki simge adınıza uygulamalar için yayınlanmış olan"
       updated_successfully: "başarılı bir şekilde müşteri bilgi Güncelleme"
       we_support_hmac_sha: "Biz hmac-sha1 (önerilir) yanı sıra ssl modda, düz metin desteği."
       wrong_id: "Yanlış uygulama id"
-      you_are_already_connected_to: "Zaten %{service} bağlı olan"
+      you_are_already_connected_to: "Zaten %{service} bağlı olup"
       you_are_connected_to_the_following_services: "Aşağıdaki hizmetlere bağlıdır:"
       you_are_currently_not_connected_to_any_external_services: "Şu anda herhangi bir dış hizmetlerine bağlı değildir."
       you_can_connect_to_the_following_services: "Eğer aşağıdaki hizmetleri bağlanabilir:"

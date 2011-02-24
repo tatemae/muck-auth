@@ -3,6 +3,7 @@ sk:
   muck: 
     auth: 
       access_token_url: "Prístup Token URL"
+      add_another_service: "Pridať ďalšie služby prihláste sa:"
       application: Aplikácia
       application_developers: "Vývojári aplikácií"
       are_you_sure: "Ste si istí?"
@@ -44,6 +45,7 @@ sk:
       revoke: Odvolať!
       services: Služby
       show_label: Zobraziť
+      sign_in_via_service: "Prihláste sa cez jeden z týchto služieb:"
       sign_up_prompt: "Aby bolo možné pokračovať, uveďte informácie nižšie."
       support_url_label: "Podpora URL"
       tokens_issued: "Nasledujúce žetóny boli vydané k aplikáciám v tvojom mene"

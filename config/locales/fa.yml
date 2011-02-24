@@ -3,14 +3,15 @@ fa:
   muck: 
     auth: 
       access_token_url: "آدرس دسترسی به نشانه"
+      add_another_service: "اضافه کردن یک سرویس دیگر برای ثبت در با :"
       application: برنامه
       application_developers: "برنامه گسترشدهندگان"
-      are_you_sure: "آیا مطمئن هستید؟"
+      are_you_sure: "شما مطمئن هستید؟"
       auth_connect_error: "خطا رخ داده است در حالی که تلاش برای اتصال به سرویس."
       authentication_success: "تایید موفقیت آمیز بود."
       authorize_access: "اجازه دسترسی به حساب کاربری خود شوید"
       authorize_access_label: "اجازه دسترسی"
-      authorize_access_question: "آیا می خواهید به اجازه (%{name})%{link}} حساب کاربری خود شوید برای دسترسی به؟"
+      authorize_access_question: "مانند آیا می خواهید به اجازه (%{name})%{link}} حساب کاربری شما اجازه دسترسی به؟"
       authorize_url: "آدرس اجازه"
       back: برگشت
       back_label: برگشت
@@ -36,7 +37,7 @@ fa:
       register_a_new_application: "ثبت نام نرم افزار جدید"
       register_your_application: "ثبت نام درخواست خود را"
       registered_successfully: "اطلاعات ثبت نام با موفقیت"
-      remove_authentication_confirm: "آیا مطمئن هستید که میخواهید این گزینه خروج؟"
+      remove_authentication_confirm: "آیا شما مطمئنید که می خواهید برای حذف این گزینه خروج؟"
       removed_authentication: "با موفقیت حذف و خروج."
       request_allowed: "شما اجازه داده اند این درخواست"
       request_disallowed: "شما مجاز این درخواست"
@@ -44,6 +45,7 @@ fa:
       revoke: "را لغو کنید!"
       services: خدمات
       show_label: نمایش
+      sign_in_via_service: "ثبت نام از طریق یکی از این خدمات :"
       sign_up_prompt: "برای ادامه لطفا اطلاعات زیر کلیک کنید."
       support_url_label: "آدرس پشتیبانی"
       tokens_issued: "آیات زیر شده به نام شما صادر شده به یک برنامه"
@@ -51,7 +53,7 @@ fa:
       we_support_hmac_sha: "ما از hmac - sha1 (توصیه شده) و همچنین به عنوان متن ساده در حالت اس اس ال."
       wrong_id: "نرم افزار اشتباه شناسه"
       you_are_already_connected_to: "شما در حال حاضر به %{service} وصل"
-      you_are_connected_to_the_following_services: "شما به خدمات پس از وصل :"
+      you_are_connected_to_the_following_services: "شما به خدمات پس از متصل :"
       you_are_currently_not_connected_to_any_external_services: "شما در حال حاضر به هر گونه خدمات خارجی وصل نشده است."
       you_can_connect_to_the_following_services: "شما می توانید به خدمات زیر در تماس باشید :"
       you_have_the_following_client_applications_registered: "شما باید برنامه های زیر ثبت نام مشتری :"

@@ -3,6 +3,7 @@ ja:
   muck: 
     auth: 
       access_token_url: アクセストークンのURL
+      add_another_service: でログインするために別のサービスを追加：
       application: アプリケーション
       application_developers: アプリケーション開発者
       are_you_sure: あなたはよろしいですか？
@@ -44,6 +45,7 @@ ja:
       revoke: 取り消し！
       services: サービス
       show_label: 地図
+      sign_in_via_service: これらのサービスのいずれかを介してしましょう：
       sign_up_prompt: ためには、以下の情報を提供して続行してください。
       support_url_label: サポートURL
       tokens_issued: 次のトークンがあなたの名前のアプリケーションに発行されている

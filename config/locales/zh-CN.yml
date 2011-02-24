@@ -3,6 +3,7 @@ zh-CN:
   muck: 
     auth: 
       access_token_url: 访问令牌网址
+      add_another_service: 新增其他服务登录为：
       application: 应用
       application_developers: 应用开发人员
       are_you_sure: 你肯定吗？
@@ -44,6 +45,7 @@ zh-CN:
       revoke: 撤销！
       services: 服务
       show_label: 显示
+      sign_in_via_service: 想通过这些服务之一：
       sign_up_prompt: 为了继续请提供以下信息。
       support_url_label: 支持URL
       tokens_issued: 下面的标记已发给你的名字申请

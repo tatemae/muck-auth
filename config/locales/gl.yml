@@ -3,6 +3,7 @@ gl:
   muck: 
     auth: 
       access_token_url: "Acceso a URL Token"
+      add_another_service: "Engadir outro servizo para escribir:"
       application: Aplicación
       application_developers: "Desenvolvedores de aplicacións"
       are_you_sure: "Está seguro?"
@@ -44,6 +45,7 @@ gl:
       revoke: Revogar!
       services: Servizos
       show_label: Show
+      sign_in_via_service: "Rexístrate en medio dun destes servizos:"
       sign_up_prompt: "Para continuar a proporcionar a información seguinte."
       support_url_label: "URL de soporte"
       tokens_issued: "Os seguintes símbolos foron emitidos para aplicacións no seu nome"

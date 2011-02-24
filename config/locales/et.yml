@@ -3,6 +3,7 @@ et:
   muck: 
     auth: 
       access_token_url: "Juurdepääs Token URL"
+      add_another_service: "Lisa teise teenuse sisse logida:"
       application: Kohaldamine
       application_developers: "Rakenduste arendajatele"
       are_you_sure: "Oled sa kindel?"
@@ -44,6 +45,7 @@ et:
       revoke: Tühistage!
       services: Teenused
       show_label: Näita
+      sign_in_via_service: "Logi sisse kaudu ühe neist teenused:"
       sign_up_prompt: "Selleks, et jätkuvalt esitage allpool toodud andmed."
       support_url_label: "Toetada URL"
       tokens_issued: "Järgmised märgid on väljastatud taotluste su nimi"

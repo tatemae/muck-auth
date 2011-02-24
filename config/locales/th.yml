@@ -3,6 +3,7 @@ th:
   muck: 
     auth: 
       access_token_url: "URL Access Token"
+      add_another_service: "เพิ่มบริการเพื่อเข้าสู่ระบบด้วยอื่น :"
       application: ใบสมัคร
       application_developers: พัฒนาโปรแกรมประยุกต์
       are_you_sure: คุณแน่ใจหรือไม่?
@@ -44,6 +45,7 @@ th:
       revoke: ยกเลิก!
       services: การบริการ
       show_label: แสดง
+      sign_in_via_service: เข้าสู่ระบบผ่านทางบริการนี้
       sign_up_prompt: เพื่อที่จะดำเนินการต่อกรุณาระบุข้อมูลด้านล่าง
       support_url_label: "URL การสนับสนุน"
       tokens_issued: โทเคนต่อไปนี้มีการออกไปใช้งานในชื่อของคุณ

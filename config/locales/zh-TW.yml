@@ -3,6 +3,7 @@ zh-TW:
   muck: 
     auth: 
       access_token_url: 訪問令牌網址
+      add_another_service: 新增其他服務登錄為：
       application: 應用
       application_developers: 應用開發人員
       are_you_sure: 你肯定嗎？
@@ -44,6 +45,7 @@ zh-TW:
       revoke: 撤銷！
       services: 服務
       show_label: 顯示
+      sign_in_via_service: 想通過這些服務之一：
       sign_up_prompt: 為了繼續請提供以下信息。
       support_url_label: 支持URL
       tokens_issued: 下面的標記已發給你的名字申請

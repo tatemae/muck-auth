@@ -3,6 +3,7 @@ sl:
   muck: 
     auth: 
       access_token_url: "Dostop žeton URL"
+      add_another_service: "Dodaj še eno storitev, da se prijavite z:"
       application: Uporaba
       application_developers: "Uporaba Razvijalci"
       are_you_sure: "Ali ste prepričani?"
@@ -44,6 +45,7 @@ sl:
       revoke: Prekliči!
       services: Storitve
       show_label: Prikaži
+      sign_in_via_service: "Prijavite se prek enega od teh storitev:"
       sign_up_prompt: "Da bi še naprej navedite spodnje podatke."
       support_url_label: "Podpora URL"
       tokens_issued: "Naslednji žetoni so bile izdane do aplikacij na vaše ime"

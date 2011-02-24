@@ -3,6 +3,7 @@ ht:
   muck: 
     auth: 
       access_token_url: "Aksè jton URL"
+      add_another_service: "Ajoute yon lòt sèvis nan siyen nan avèk:"
       application: Aplikasyon
       application_developers: "Aplikasyon Developers"
       are_you_sure: "Èske ou asire?"
@@ -44,6 +45,7 @@ ht:
       revoke: Revoke!
       services: Sèvis
       show_label: Montre
+      sign_in_via_service: "Siyen nan nan youn nan sèvis sa yo:"
       sign_up_prompt: "Yo nan lòd yo kontinye tanpri bay enfòmasyon ki anba yo."
       support_url_label: "URL Sipò"
       tokens_issued: "marqueur sa yo yo te bay aplikasyon nan non ou"

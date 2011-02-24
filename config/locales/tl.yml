@@ -3,6 +3,7 @@ tl:
   muck: 
     auth: 
       access_token_url: "Access Token URL"
+      add_another_service: "Magdagdag ng isa pang serbisyo sa mga mag-sign in sa:"
       application: Application
       application_developers: "Application Developers"
       are_you_sure: "Sigurado ka ba?"
@@ -44,6 +45,7 @@ tl:
       revoke: Bawiin!
       services: "Mga Serbisyo"
       show_label: Ipakita
+      sign_in_via_service: "Mag-sign in sa pamamagitan ng isa sa mga serbisyong ito:"
       sign_up_prompt: "Upang magpatuloy mangyaring ibigay ang impormasyon sa ibaba."
       support_url_label: "Support URL"
       tokens_issued: "Ang mga sumusunod na mga token ay inisyu sa mga aplikasyon sa iyong pangalan"

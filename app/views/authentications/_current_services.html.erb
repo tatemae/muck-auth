@@ -3,11 +3,15 @@
     <p><%=translate('muck.auth.you_are_currently_not_connected_to_any_external_services') %></p>
   <% else -%>
     <p><%=translate('muck.auth.you_are_connected_to_the_following_services') %></p>
-    <ul <%='class="icon-list"' if include_icons%>>
+    <ul class="icon-list">
       <% authentications.each do |auth| -%>
-        <li class="<%=auth_css_class(auth.provider)%> oauth_service service-link" <%= auth_icon_back(auth.provider, include_icons) %>>
-          <%= auth_name(auth.provider) %>
-          <%= link_to "X", auth, :confirm => translate('muck.auth.remove_authentication_confirm'), :method => :delete, :class => "remove" %>
+        <li id="<%=auth.dom_id%>" class="<%=auth_css_class(auth.provider)%> oauth_service service-link" <%= auth_icon_back(auth.provider, include_icons).html_safe %>>
+          <p><%= auth_name(auth.provider) %></p>
+          <%= render(:partial => 'shared/delete', :locals => { :delete_object => auth, 
+                                                           :button_type => :image,
+                                                           :button_text => "(disconnect)",
+                                                           :form_class => 'disconnect-service',
+                                                           :delete_path => authentication_path(auth, :format => 'js') }).html_safe %>
         </li>
       <% end -%>
     </ul>

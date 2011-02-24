@@ -1,8 +1,10 @@
 module MuckAuthHelper
     
-  def auth_list(include_icons)
+  def auth_list(include_icons, services_to_exclude = nil)
     list = ''
-    Secrets.auth_credentials.keys.each do |auth|
+    services = Secrets.auth_credentials.keys
+    services = services - services_to_exclude.map(&:provider) if services_to_exclude
+    services.each do |auth|
       list << %Q{<li class="#{auth_css_class(auth)} auth_service service-link" #{auth_icon_back(auth, include_icons)} title="#{auth_title(auth)}">#{auth_link(auth)}</li>}
     end
     list.html_safe

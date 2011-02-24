@@ -3,6 +3,7 @@ el:
   muck: 
     auth: 
       access_token_url: "Δείτε το Κουπόνι URL"
+      add_another_service: "Προσθέστε άλλη υπηρεσία για να συνδεθείτε με:"
       application: Εφαρμογή
       application_developers: "Οι προγραμματιστές εφαρμογών"
       are_you_sure: "Είσαι σίγουρος;"
@@ -44,6 +45,7 @@ el:
       revoke: Ανάκληση!
       services: Υπηρεσίες
       show_label: Εμφάνιση
+      sign_in_via_service: "Συνδεθείτε μέσω ενός από αυτές τις υπηρεσίες:"
       sign_up_prompt: "Για να συνεχιστεί δώστε τις παρακάτω πληροφορίες."
       support_url_label: "URL Υποστήριξη"
       tokens_issued: "Οι ακόλουθες μάρκες που έχουν εκδοθεί για τις αιτήσεις στο όνομά σας"
