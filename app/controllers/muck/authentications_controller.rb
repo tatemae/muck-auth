@@ -51,13 +51,7 @@ class Muck::AuthenticationsController < ApplicationController
     @authentication.destroy
     @current_authentications = current_user.authentications
     @unused_authentications = get_unused_authentications(@current_authentications)
-    respond_to do |format|
-      format.html do
-        flash[:notice] = t('muck.auth.removed_authentication')
-        redirect_to authentications_url
-      end
-      format.js { render :template => 'authentications/destroy' }
-    end
+    after_destroy_response
   end
   
   protected
@@ -67,6 +61,16 @@ class Muck::AuthenticationsController < ApplicationController
         Authentication.unused_services(current_authentications)
       else
         Authentication.all_services 
+      end
+    end
+    
+    def after_destroy_response
+      respond_to do |format|
+        format.html do
+          flash[:notice] = t('muck.auth.removed_authentication')
+          redirect_to authentications_url
+        end
+        format.js { render :template => 'authentications/destroy' }
       end
     end
     

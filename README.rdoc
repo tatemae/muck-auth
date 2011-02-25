@@ -28,7 +28,7 @@ Here's a list of common oauth services. For a complete list of all available ser
 https://github.com/intridea/omniauth
 
   Twitter:    http://www.twitter.com/apps 
-  Google:     http://code.google.com/apis/accounts/docs/RegistrationForWebAppsAuto.html#register
+  Google:     http://code.google.com/apis/accounts/docs/RegistrationForWebAppsAuto.html#register  (domains are managed on: https://www.google.com/accounts/ManageDomains)
   Yahoo:      http://developer.yahoo.com/flickr/
   Flick:      http://www.flickr.com/services/apps/create/apply
   Linked In:  https://www.linkedin.com/secure/developer

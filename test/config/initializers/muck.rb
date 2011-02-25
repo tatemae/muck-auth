@@ -53,9 +53,6 @@ MuckUsers.configure do |config|
                                                   # users delete their own accounts since the delete can cascade through the system with unknown results.
 end
 
-MuckAuth.configure do |config|
-  config.auth_credentials = Secrets.auth_credentials
-end
 
 if defined?(ActiveRecord)
   # Don't Include Active Record class name as root for JSON serialized output.

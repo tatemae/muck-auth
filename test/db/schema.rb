@@ -10,13 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101013183808) do
+ActiveRecord::Schema.define(:version => 20110216045051) do
 
   create_table "access_code_requests", :force => true do |t|
     t.string   "email"
     t.datetime "code_sent_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
   end
 
   add_index "access_code_requests", ["email"], :name => "index_access_code_requests_on_email"
@@ -34,13 +35,20 @@ ActiveRecord::Schema.define(:version => 20101013183808) do
   add_index "access_codes", ["code"], :name => "index_access_codes_on_code"
 
   create_table "authentications", :force => true do |t|
-    t.integer  "user_id"
+    t.integer  "authenticatable_id"
+    t.string   "authenticatable_type"
     t.string   "provider"
     t.string   "uid"
+    t.string   "name"
+    t.string   "nickname"
+    t.string   "token"
+    t.string   "secret"
     t.text     "raw_auth"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "authentications", ["authenticatable_id", "authenticatable_type"], :name => "authenticatable"
 
   create_table "countries", :force => true do |t|
     t.string  "name",         :limit => 128, :default => "",   :null => false
