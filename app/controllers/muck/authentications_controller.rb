@@ -11,6 +11,7 @@ class Muck::AuthenticationsController < ApplicationController
     @omniauth = request.env["omniauth.auth"]
     # Associated the account with the user
     if current_user
+      @user = current_user
       current_user.authentications.create!(:provider => @omniauth['provider'], :uid => @omniauth['uid'], :raw_auth => @omniauth.to_json, 
                                            :token => @omniauth['credentials']['token'], :secret => @omniauth['credentials']['secret'] )
       flash[:notice] = t('muck.auth.authentication_success')
@@ -18,6 +19,7 @@ class Muck::AuthenticationsController < ApplicationController
     elsif authentication = Authentication.find_by_provider_and_uid(@omniauth['provider'], @omniauth['uid']) # Try to log the user in via the service
       flash[:notice] = t('muck.users.login_success')
       UserSession.create(authentication.user)
+      @user = current_user
       status = :log_via_oauth_in_success      
     else
       # Could not find any information. Create a new account.
