@@ -4,6 +4,7 @@ class Muck::AuthenticationsController < ApplicationController
     @unused_authentications = get_unused_authentications(@current_authentications)    
     respond_to do |format|
       format.html { render :template => 'authentications/index' }
+      format.json { render :json => { :authentications => @current_authentications, :unused_authentications => @unused_authentications } }
     end
   end
   
