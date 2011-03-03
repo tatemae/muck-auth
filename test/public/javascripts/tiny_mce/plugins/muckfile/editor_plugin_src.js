@@ -4,10 +4,10 @@
  * @copyright Copyright © 2009, Tatemae.
  */
 (function() {
-	tinymce.create('tinymce.plugins.AdvancedFileTooPlugin', {
+	tinymce.create('tinymce.plugins.MuckFilePlugin', {
 		init : function(ed, url) {
 			// Register commands
-			ed.addCommand('mceAdvFileToo', function() {
+			ed.addCommand('mceMuckFile', function() {
 				var e = ed.selection.getNode();
 				// Internal file object like a flash placeholder
 				if (ed.dom.getAttrib(e, 'class').indexOf('mceItem') != -1)
@@ -22,10 +22,10 @@
 				});
 			});
 			// Register button
-			ed.addButton('file', {
+			ed.addButton('muckfile', {
 				title : 'Upload Files',
-				cmd : 'mceAdvFileToo',
-				image : '/images/tinymce/upload.gif'
+				cmd : 'mceMuckFile',
+				image : '/images/tinymce/doc.jpg'
 			});
 		},
 		getInfo : function() {
@@ -38,5 +38,5 @@
 		}
 	});
 	// Register plugin
-	tinymce.PluginManager.add('muckfile', tinymce.plugins.AdvancedFileTooPlugin);
+	tinymce.PluginManager.add('muckfile', tinymce.plugins.MuckFilePlugin);
 })();

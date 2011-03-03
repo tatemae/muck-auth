@@ -22,6 +22,7 @@ Add services by including the proper credentials in secrets.yml:
     twitter: # Twitter api access: http://www.twitter.com/apps 
       key: '{get a key}'
       secret: '{it comes with a secret}'
+      valid_signin: true   # include if you want to use this service to let your users signin/register for your site
     
 === OAuth Services
 Here's a list of common oauth services. For a complete list of all available services please consult the omniauth documentation as the available services are constantly changing:
@@ -40,5 +41,11 @@ Render a full list of all services with links to authorize the service and icons
 
 Render a list of all services that the current_user has authorized:
   <%= render :partial => 'authentications/current_services', :locals => { :include_icons => true, :authentications => current_user.authentications } %>
+
+Let users sign in and/or register on your site via oauth. Just remember to set valid_signin to true in your secrets.yml file:
+  <%= render :partial => 'users/signup_services' %>
+
+There is a default template ('authentications/signup') that will be rendered if the sign up fails. Override that template if you want to provide the user with a custom experience:
+  
 
 Copyright (c) 2009-2011 Tatemae.com. See LICENSE for details.

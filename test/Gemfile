@@ -5,10 +5,16 @@ gem 'mysql'
 
 # gem 'authlogic'
 gem 'authlogic', :git => 'git://github.com/binarylogic/authlogic.git'
+
+gem "will_paginate", "~> 3.0.pre2"
 gem "bcrypt-ruby", :require => "bcrypt"
 
-gem 'muck-engine' #, :path => "~/projects/muck-engine"
-gem 'muck-users' #, :path => "~/projects/muck-users"
+gem "muck-engine" #, :path => "~/projects/muck-engine"
+gem "muck-users", ">=3.1.11" #, :path => "~/projects/muck-users"
+gem "muck-comments"
+gem "muck-profiles"
+gem "muck-shares"
+gem "muck-services", :path => "~/projects/muck-services"
 gem 'muck-auth', :path => '../'
 
 if RUBY_VERSION < '1.9'

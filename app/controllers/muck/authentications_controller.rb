@@ -19,8 +19,8 @@ class Muck::AuthenticationsController < ApplicationController
       status = :logged_in_success
     elsif authentication = Authentication.find_by_provider_and_uid(@omniauth['provider'], @omniauth['uid']) # Try to log the user in via the service
       flash[:notice] = t('muck.users.login_success')
-      UserSession.create(authentication.user)
-      @user = current_user
+      @user = authentication.authenticatable
+      UserSession.create(@user)
       status = :log_via_oauth_in_success      
     else
       # Could not find any information. Create a new account.
@@ -35,6 +35,7 @@ class Muck::AuthenticationsController < ApplicationController
         # Have to build a new user to get rid of the password
         @user = User.new
         @user.apply_omniauth(@omniauth)
+        @user.valid?
         status = :new_signup_failure
       end
     end

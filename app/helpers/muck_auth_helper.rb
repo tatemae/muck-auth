@@ -14,6 +14,13 @@ module MuckAuthHelper
     services
   end
   
+  def signin_services(services_to_exclude = nil)
+    services = Secrets.auth_credentials    
+    services = services.keys.find_all{|key| services[key]['valid_signin']}
+    services = services - services_to_exclude.map(&:provider) if services_to_exclude
+    services
+  end
+  
   def auth_icon_back(auth, include_icons = true)
     if include_icons
       icon = service_icon_background(auth)

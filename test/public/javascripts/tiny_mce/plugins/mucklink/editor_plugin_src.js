@@ -4,11 +4,11 @@
  * @copyright Copyright © 2009, Tatemae, All rights reserved.
  */
 (function() {
-	tinymce.create('tinymce.plugins.AdvancedLinkTooPlugin', {
+	tinymce.create('tinymce.plugins.MuckLink', {
 		init : function(ed, url) {
 			this.editor = ed;
 			// Register commands
-			ed.addCommand('mceAdvLinkToo', function() {
+			ed.addCommand('mceMuckLink', function() {
 				var se = ed.selection;
 				// No selection and not in link
 				if (se.isCollapsed() && !ed.dom.getParent(se.getNode(), 'A'))
@@ -23,11 +23,12 @@
 				});
 			});
 			// Register buttons
-			ed.addButton('link', {
-				title : 'mucklink.link_desc',
-				cmd : 'mceAdvLinkToo'
+			ed.addButton('mucklink', {
+				title : 'Create Link',
+				cmd : 'mceMuckLink',
+				image : '/images/tinymce/link.jpg'
 			});
-			ed.addShortcut('ctrl+k', 'mucklink.advlink_desc', 'mceAdvLinkToo');
+			ed.addShortcut('ctrl+k', 'Create Link', 'mceMuckLink');
 			ed.onNodeChange.add(function(ed, cm, n, co) {
 				cm.setDisabled('link', co && n.nodeName != 'A');
 				cm.setActive('link', n.nodeName == 'A' && !n.name);
@@ -43,5 +44,5 @@
 		}
 	});
 	// Register plugin
-	tinymce.PluginManager.add('mucklink', tinymce.plugins.AdvancedLinkTooPlugin);
+	tinymce.PluginManager.add('mucklink', tinymce.plugins.MuckLink);
 })();

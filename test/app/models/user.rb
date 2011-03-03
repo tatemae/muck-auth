@@ -4,5 +4,7 @@ class User < ActiveRecord::Base
   end
   include MuckUsers::Models::MuckUser
   include MuckAuth::Models::MuckUser
-  
+  include MuckProfiles::Models::MuckUser
+  include MuckServices::Models::MuckFeedParent
+  include MuckServices::Models::MuckFeedOwner
 end
