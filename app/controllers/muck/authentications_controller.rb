@@ -30,7 +30,7 @@ class Muck::AuthenticationsController < ApplicationController
       if @user.save
         UserSession.create(@user)
         flash[:notice] = t('muck.users.thanks_sign_up')
-        status = :new_signup_success 
+        status = :new_signup_success
       else
         # Have to build a new user to get rid of the password
         @user = User.new
