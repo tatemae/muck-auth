@@ -8,6 +8,19 @@ module MuckAuth
         belongs_to :authenticatable, :polymorphic => true        
       end
       
+      def access_token
+        access_token = OAuth::AccessToken.new(consumer, self.token, self.secret)        
+      end
+      
+      def consumer
+        strategy.consumer
+      end
+      
+      def strategy
+        strategy_class = OmniAuth::Strategies.const_get("#{OmniAuth::Utils.camelize(self.provider)}")
+        strategy_class.new(nil, Secrets.auth_credentials[provider]['key'], Secrets.auth_credentials[provider]['secret'], :scope => Secrets.auth_credentials[provider]['scope'])
+      end
+        
       module ClassMethods
         
         def all_services

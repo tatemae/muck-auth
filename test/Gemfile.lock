@@ -8,7 +8,7 @@ GIT
 PATH
   remote: ../
   specs:
-    muck-auth (3.4.0)
+    muck-auth (3.5.0)
       muck-engine
       muck-users
       omniauth
@@ -17,7 +17,7 @@ PATH
 PATH
   remote: ~/projects/muck-services
   specs:
-    muck-services (3.3.0)
+    muck-services (3.3.1)
       acts-as-taggable-on
       feedzirra
       hpricot
@@ -64,7 +64,7 @@ GEM
       activesupport (= 3.0.5)
     activesupport (3.0.5)
     acts-as-taggable-on (2.0.6)
-    addressable (2.2.4)
+    addressable (2.2.5)
     arel (2.0.9)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
@@ -105,7 +105,7 @@ GEM
     cucumber-rails (0.3.2)
       cucumber (>= 0.8.0)
     culerity (0.2.15)
-    curb (0.7.14)
+    curb (0.7.15)
     database_cleaner (0.6.6)
     diff-lcs (1.1.2)
     erubis (2.6.6)
