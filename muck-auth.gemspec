@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-auth}
-  s.version = "3.5.0"
+  s.version = "3.5.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2011-03-19}
+  s.date = %q{2011-04-23}
   s.description = %q{A simple wrapper for the omniauth gem so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
