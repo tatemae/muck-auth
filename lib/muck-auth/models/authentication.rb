@@ -5,7 +5,12 @@ module MuckAuth
       extend ActiveSupport::Concern
     
       included do
-        belongs_to :authenticatable, :polymorphic => true        
+        belongs_to :authenticatable, :polymorphic => true
+        scope :by_newest, order("authentications.created_at DESC")
+        scope :by_oldest, order("authentications.created_at ASC")
+        scope :by_latest, order("authentications.updated_at DESC")
+        scope :newer_than, lambda { |*args| where("authentications.created_at > ?", args.first || DateTime.now) }
+        scope :older_than, lambda { |*args| where("authentications.created_at < ?", args.first || 1.day.ago.to_s(:db)) }        
       end
       
       def access_token

@@ -5,7 +5,13 @@ describe Authentication do
     @authentication = Factory(:authentication, :provider => 'twitter')
     @user = @authentication.authenticatable
   end
+  
   it { should belong_to :authenticatable }
+  it { should scope_by_latest }
+  it { should scope_by_newest }
+  it { should scope_by_oldest }
+  it { should scope_newer_than }
+  it { should scope_older_than }
   
   describe "access_token" do
     it "should get the access_token for twitter" do

@@ -27,7 +27,7 @@ class Muck::AuthenticationsController < ApplicationController
       @user = User.new
       @user.apply_omniauth(@omniauth)
       @user.generate_password
-      if @user.save
+      if @user.save        
         UserSession.create(@user)
         flash[:notice] = t('muck.users.thanks_sign_up')
         status = :new_signup_success
