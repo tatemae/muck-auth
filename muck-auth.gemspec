@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-auth}
-  s.version = "3.5.2"
+  s.version = "3.5.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2011-07-12}
+  s.date = %q{2011-07-13}
   s.description = %q{A simple wrapper for the omniauth gem so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -181,6 +181,9 @@ Gem::Specification.new do |s|
     "test/db/migrate/20101117172951_add_name_to_access_code_requests.rb",
     "test/db/migrate/20110216045051_create_authentications.rb",
     "test/db/migrate/20110226174321_add_cached_slugs.rb",
+    "test/db/migrate/20110303183433_add_sent_to_to_access_codes.rb",
+    "test/db/migrate/20110420153714_add_provided_by_to_access_codes.rb",
+    "test/db/migrate/20110713040718_add_photo_url.rb",
     "test/db/schema.rb",
     "test/db/seeds.rb",
     "test/features/step_definitions/common_steps.rb",
@@ -700,6 +703,8 @@ Gem::Specification.new do |s|
     "test/public/javascripts/muck.js",
     "test/public/javascripts/muck_activities.js",
     "test/public/javascripts/muck_admin.js",
+    "test/public/javascripts/muck_countries.js",
+    "test/public/javascripts/muck_services-src.js",
     "test/public/javascripts/muck_services.js",
     "test/public/javascripts/muck_time/en.js",
     "test/public/javascripts/prototype.js",
@@ -2236,6 +2241,21 @@ Gem::Specification.new do |s|
     "test/public/stylesheets/swfupload.css",
     "test/public/stylesheets/tinymce.css",
     "test/public/stylesheets/uploadify.css",
+    "test/public/system/photos/32/icon/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/32/medium/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/32/original/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/32/thumb/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/32/tiny/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/33/icon/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/33/medium/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/33/original/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/33/thumb/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/33/tiny/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/34/icon/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/34/medium/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/34/original/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/34/thumb/GettyImages_79495526-1-0_bigger.jpg",
+    "test/public/system/photos/34/tiny/GettyImages_79495526-1-0_bigger.jpg",
     "test/script/rails",
     "test/spec/controllers/authentications_controller_spec.rb",
     "test/spec/models/authentication_spec.rb",
