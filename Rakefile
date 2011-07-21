@@ -24,7 +24,7 @@ begin
     gem.email = "justin@tatemae.com"
     gem.homepage = "http://github.com/tatemae/muck-auth"
     gem.authors = ["Justin Ball"]
-    gem.add_dependency "omniauth"
+    gem.add_dependency "omniauth", ">=0.2.6"
     gem.add_dependency "overlord"
     gem.add_dependency "muck-engine"
     gem.add_dependency "muck-users"
